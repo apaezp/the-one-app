@@ -29,7 +29,7 @@ export default function HeroSectionGot() {
               buttonStyle="btn--outline"
               buttonSize="btn--large"
             >
-              Movies
+              TV Series
             </Button>
             <Button
               className="btns"
