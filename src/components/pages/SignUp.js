@@ -28,7 +28,8 @@ export default function SignUp() {
               </div>
           </div>
           <div className="footer">
-              <button type="submit" className="btn">Register</button>
+              <button type="submit" className="btn" >Register</button>
+              {/* onClick= {(prompt("Thank you!")) } */}
           </div>
       </div>      
     )       
