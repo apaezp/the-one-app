@@ -96,6 +96,7 @@
   .social-icon-link {
     color: #fff;
     font-size: 24px;
+    font-family: 'Cinzel', serif;
   }
   
   .social-media {
@@ -129,11 +130,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
   }
   
   .website-rights {
     color: #fff;
     margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
   }
   
   @media screen and (max-width: 820px) {

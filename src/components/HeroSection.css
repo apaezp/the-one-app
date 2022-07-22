@@ -6,8 +6,7 @@ video {
     z-index: -1;
   }
   
-  .hero-container {
-      /* background: url("https://images6.alphacoders.com/909/thumb-1920-909641.png") center center/cover no-repeat; */
+  .hero-container {      
       height: 100vh;
       width: 100%;
       display: flex;
@@ -16,7 +15,7 @@ video {
       align-items: center;
       box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
       object-fit: contain;
-      overflow: hidden;    
+      
       
     }  
     
