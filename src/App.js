@@ -42,23 +42,23 @@ function App() {
 
           <Route path="pages/SignUp" element={<SignUp />} />
 
-          <Route path="pages/Got/CharactersGot" element={<CharactersGot />} />
+          <Route path="pages/Got/HomeGot/CharactersGot" element={<CharactersGot />} />
 
-          <Route path="pages/Got/BooksGot" element={<BooksGot />} />
+          <Route path="pages/Got/HomeGot/BooksGot" element={<BooksGot />} />
 
-          <Route path="pages/Got/SeriesGot" element={<SeriesGot />} />
+          <Route path="pages/Got/HomeGot/SeriesGot" element={<SeriesGot />} />
 
-          <Route path="pages/HarryPotter/CharactersHp" element={<CharactersHp />} />
+          <Route path="pages/HarryPotter/HomeHp/CharactersHp" element={<CharactersHp />} />
 
-          <Route path="pages/HarryPotter/BooksHp" element={<BooksHp />} />
+          <Route path="pages/HarryPotter/HomeHp/BooksHp" element={<BooksHp />} />
 
-          <Route path="pages/HarryPotter/MoviesHp" element={<MoviesHp />} />
+          <Route path="pages/HarryPotter/HomeHp/MoviesHp" element={<MoviesHp />} />
 
-          <Route path="pages/Lotr/CharactersLotr" element={<CharactersLotr />} />
+          <Route path="pages/Lotr/HomeLotr/CharactersLotr" element={<CharactersLotr />} />
 
-          <Route path="pages/Lotr/BooksLotr" element={<BooksLotr />} />
+          <Route path="pages/Lotr/HomeLotr/BooksLotr" element={<BooksLotr />} />
 
-          <Route path="pages/Lotr/MoviesLotr" element={<MoviesLotr />} />
+          <Route path="pages/Lotr/HomeLotr/MoviesLotr" element={<MoviesLotr />} />
 
 
         </Routes>
