@@ -12,7 +12,7 @@ export default function SignUp() {
               </div>
               <div className="lastname">
                   <label className="form__label">Last Name </label>
-                  <input  type="text" name="" id="lastName"  className="form__input"placeholder="LastName"/>
+                  <input  type="text" name="" id="lastName"  className="form__input"placeholder="Last Name"/>
               </div>
               <div className="email">
                   <label className="form__label" >Email </label>
