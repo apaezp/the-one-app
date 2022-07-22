@@ -19,6 +19,20 @@ export default function HeroSectionLotr() {
             </Button>
             <Button
               className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Books
+            </Button>
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Movies
+            </Button>
+            <Button
+              className="btns"
               buttonStyle="btn--primary"
               buttonSize="btn--large"
               onClick={console.log("hey")}
