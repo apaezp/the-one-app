@@ -3,7 +3,7 @@ import "./FooterGot.css";
 
 function FooterGot() {
   return (
-    <div clasName="footerGot-container">
+    <div className="footerGot-container">
       <section className="footerGot-quote">
         <p className="footerGot-quote-text">
           "TheOne is the best way to discover new things."

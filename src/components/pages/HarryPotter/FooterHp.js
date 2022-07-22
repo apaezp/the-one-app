@@ -3,7 +3,7 @@ import "./FooterHp.css"
 
 function FooterHp() {
   return (    
-      <div clasName="footerHp-container">
+      <div className="footerHp-container">
         <section className="footerHp-quote">
           <p className="footerHp-quote-text">
             "TheOne is the best way to discover new things."

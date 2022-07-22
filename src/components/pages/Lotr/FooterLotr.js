@@ -3,7 +3,7 @@ import "./FooterLotr.css";
 
 function FooterLotr() {
   return (
-    <div clasName="footerLotr-container">
+    <div className="footerLotr-container">
       <section className="footerLotr-quote">
         <p className="footerLotr-quote-text">
           "TheOne is the best way to discover new things."
