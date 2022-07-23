@@ -1,20 +1,29 @@
 import React from 'react'
 import "./FooterHp.css"
+import GenerateRandomQuote from './GenerateRandomQuote'
+
+
 
 function FooterHp() {
-  return (    
-      <div className="footerHp-container">
-        <section className="footerHp-quote">
-          <p className="footerHp-quote-text">
-            "TheOne is the best way to discover new things."
-          </p>
-          <p className="footerHp-quote-author">- J. K. Rowling.</p>
-        </section>
-  
-        <div className="footerHp-rights">
-          <p>© 2022 TheOne. All rights reserved.</p>
-        </div>
-      </div>
-    );
-  }
+  return (
+<>
+<div className="footerHp-container">
+
+  <section className="footerHp-quote"> 
+
+  <GenerateRandomQuote />
+  </section>
+
+  <div className="footerHp-rights">
+  <p>© 2022 TheOne. All rights reserved.</p>
+</div>
+
+  </div>
+
+  </>
+  );
+}
+
+
+
 export default FooterHp

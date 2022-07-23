@@ -1,0 +1,50 @@
+  .quotebox {
+    height: auto;
+    width: 100%;
+    border: 1px rgb(145, 126, 126) solid;
+    border-radius: 10px;
+    text-align: right;
+    max-width: 35rem;
+    font-family: 'Cinzel', serif;
+    background-color: #181818;
+    
+  }
+  
+  #quote {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .fadeIn {
+    opacity: 0;
+    display: block;
+    animation: slidein 1s ease-out forwards;
+  }
+  
+  @keyframes slidein {
+    0% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  #author {
+    margin: 20px;
+    font-style: italic;
+  }
+  
+  #newquote {
+    font-family: 'Cinzel', serif;
+    background-color: #181818;
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-weight: 700;    
+    
+  }
