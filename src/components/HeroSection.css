@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+}
+
+
 video {
     object-fit: cover;
     width: 100%;

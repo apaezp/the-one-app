@@ -1,10 +1,10 @@
 import React from 'react'
-import React, { useState, useEffect } from "react";
-// import book1 from '../assets/imgs/book-1.jpg'
-// import book2 from '../assets/imgs/book-2.jpg'
-// import book3 from '../assets/imgs/book-3.jpg'
-// import book4 from '../assets/imgs/book-4.jpg'
-// import book5 from '../assets/imgs/book-5.jpg'
+import { useState, useEffect } from "react";
+import book1 from './img/book-1.jpg'
+import book2 from './img/book-2.jpg'
+import book3 from './img/book-3.jpg'
+import book4 from './img/book-4.jpg'
+import book5 from './img/book-5.jpg'
 
 const booksArray = [book1,book2,book3,book4,book5]
 
@@ -34,7 +34,7 @@ const BooksGot = () => {
                                     booksArray.map(book => (
                                         
                                         <div className="imgContainer" key={booksArray.indexOf(book)}>
-                                    <img src={book} className="cardImg"></img>
+                                    <img src={book} className="cardImg" alt="cover"></img>
                                 </div>
                                     ))
                                 }
