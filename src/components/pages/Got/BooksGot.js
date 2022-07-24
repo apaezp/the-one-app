@@ -49,9 +49,7 @@ const BooksGot = () => {
                     ))
                 }
             </section>
-            <div className="footerGot-rights">
-                <p>© 2022 TheOne. All rights reserved.</p>
-            </div>
+            
         </div>
     );
 }

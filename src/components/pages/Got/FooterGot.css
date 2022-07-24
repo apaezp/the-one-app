@@ -21,11 +21,12 @@
   
     .footerGot-quote-text{
     font-family: 'Cinzel', serif;
+    font-size: 1.7rem;
     }
   
     .footerGot-quote-author {
         font-family: 'Cinzel', serif;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-top: 24px;
 } 

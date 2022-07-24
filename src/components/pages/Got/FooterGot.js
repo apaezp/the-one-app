@@ -23,9 +23,9 @@ const FooterGot = () => {
             <section className="footerGot-quote">
                 {
                     
-                        <div className="box">
-                            <p className="quote">{quotes.quote}</p>
-                            <p className="author">{quotes.character}</p>
+                        <div className="footerGot-quote">
+                            <p className="footerGot-quote-text">"{quotes.quote}"</p>
+                            <p className="footerGot-quote-author">-- {quotes.character}.</p>
                         </div>
                     
                 }
