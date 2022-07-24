@@ -24,11 +24,11 @@ const BooksGot = () => {
 
 
     return (
-        <div className="footerGot-container">
-            <section className="footerGot-quote">
+        <div className="BooksGot-container">
+            <section className="BooksGot-quote">
                 {
                     books.map(item => (
-                        <div className="box" key={books.indexOf(item)}>
+                        <div className="Booksbox" key={books.indexOf(item)}>
                             <div className="cardContainer">
                                 {
                                     booksArray.map(book => (

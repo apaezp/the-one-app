@@ -30,11 +30,8 @@ class GenerateRandomQuote extends React.Component {
     };
   
     randomColor() {
-      const color = `rgb(
-        ${Math.floor(Math.random() * 155)},
-        ${Math.floor(Math.random() * 155)},
-        ${Math.floor(Math.random() * 155)})`;
-      return color;
+      const color = "white"
+            return color;
     }
     
     render() {

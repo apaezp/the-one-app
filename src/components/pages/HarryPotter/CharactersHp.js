@@ -15,16 +15,16 @@ const CharactersHp = () => {
   }, [])
 
   return(
-    <div className='container'>
-      <div className='characters'>
+    <div className='Hpcontainer'>
+      <div className='Hpcharacters'>
         {
           character.map(item  => (
-            <div className='box' key={character.indexOf(item)}>
+            <div className='Hpbox' key={character.indexOf(item)}>
                 <img src={item.image} alt={item.name}/>
-                <div className='character'>
-                  <h3 className='name'>{item.name}</h3>
-                  <h4 className='birthDay'>{item.dateOfBirth}</h4>
-                  <p className='house'>{item.house}</p>
+                <div className='HpCharacter'>
+                  <h3 className='HpName'>{item.name}</h3>
+                  <h4 className='HpBirthDay'>{item.dateOfBirth}</h4>
+                  <p className='HpHouse'>{item.house}</p>
                 </div>
             </div>
           ))
