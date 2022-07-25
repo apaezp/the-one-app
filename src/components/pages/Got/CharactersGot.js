@@ -17,7 +17,6 @@ const CharactersGot = () => {
 
   return(
     <div className='characters-container'>
-      
       <div className='gotCharacters'>
         {
           character.map(item  => (

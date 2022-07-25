@@ -1,5 +1,6 @@
 import React from 'react'
 import {MoviesLotrDatabase} from './MoviesLotrDatabase'
+import "./MoviesLotr.css"
 
 function MoviesLotr() {
   return (
@@ -12,8 +13,8 @@ function MoviesLotr() {
         <div className="movies-itemLotr" key={item.id}>
         <img src={item.src} alt={item.name}/>
         <div className="movies-item-infoLotr">
-        <h3>{item.name}</h3>
-        <p>{item.description}</p>
+        <h3 className="lotrNameMovie">{item.name}</h3>
+        <p className="lotrDescription">{item.description}</p>
         </div>
         </div>
       ))}
