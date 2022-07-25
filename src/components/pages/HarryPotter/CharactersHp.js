@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import './CharactersHp.css'
 //http://hp-api.herokuapp.com/api/characters
 
 const CharactersHp = () => {
@@ -15,16 +16,16 @@ const CharactersHp = () => {
   }, [])
 
   return(
-    <div className='Hpcontainer'>
-      <div className='Hpcharacters'>
+    <div className='hpContainer'>
+      <div className='hpCharacters'>
         {
           character.map(item  => (
-            <div className='Hpbox' key={character.indexOf(item)}>
+            <div className='hp-box' key={character.indexOf(item)}>
                 <img src={item.image} alt={item.name}/>
-                <div className='HpCharacter'>
-                  <h3 className='HpName'>{item.name}</h3>
-                  <h4 className='HpBirthDay'>{item.dateOfBirth}</h4>
-                  <p className='HpHouse'>{item.house}</p>
+                <div className='hpCharacter'>
+                  <h3 className='hpName'>{item.name}</h3>
+                  <h4 className='hpBirthDay'>{item.dateOfBirth}</h4>
+                  <p className='hpHouse'>{item.house}</p>
                 </div>
             </div>
           ))
