@@ -38,6 +38,15 @@ export default function HeroSectionGot() {
               TV Series
             </Button>
             </Link>
+            <Link to='./FooterGot' className='btn-mobile'>
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Quotes
+            </Button>
+            </Link>
             <Link to='../../Search'>
             <Button
               className="btns"

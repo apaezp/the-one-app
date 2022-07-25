@@ -38,6 +38,15 @@ export default function HeroSectionLotr() {
               Movies
             </Button>
             </Link>
+            <Link to='./FooterLotr' className='btn-mobile'>
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Quotes
+            </Button>
+            </Link>
             <Link to='../../Search'> 
             <Button
               className="btns"

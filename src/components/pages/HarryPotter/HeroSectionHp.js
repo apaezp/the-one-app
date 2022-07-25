@@ -39,6 +39,15 @@ export default function HeroSectionHp() {
               Movies
             </Button>
             </Link>
+            <Link to='./FooterHp' className='btn-mobile'>
+            <Button
+              className="btns"
+              buttonStyle="btn--outline"
+              buttonSize="btn--large"
+            >
+              Quotes
+            </Button>
+            </Link>
             <Link to='../../Search'>
             <Button
               className="btns"
