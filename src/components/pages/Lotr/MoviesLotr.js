@@ -11,7 +11,9 @@ function MoviesLotr() {
     <div className="movies-itemsLotr">
       {MoviesLotrDatabase.map(item => (
         <div className="movies-itemLotr" key={item.id}>
+          <div className="movies-itemLotr-image">
         <img src={item.src} alt={item.name}/>
+          </div>
         <div className="movies-item-infoLotr">
         <h3 className="lotrNameMovie">{item.name}</h3>
         <p className="lotrDescription">{item.description}</p>
