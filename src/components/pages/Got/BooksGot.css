@@ -1,0 +1,30 @@
+.imgBox{
+    height: 500px;
+    width: 333px;
+}
+.bookImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5%;
+}
+.booksGot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.cardInfo{
+    padding-left: 1em;
+    width: 333px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+
+}

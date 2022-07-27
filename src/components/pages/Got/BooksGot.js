@@ -28,23 +28,23 @@ const BooksGot = () => {
 
 
     return (
-        <div className="BooksGot-container">
-            <section className="BooksGot-quote">
+        <div className="booksGot-container">
+            <section className="booksGot">
                 {
                     books.map(item => (
                         <div className="Booksbox" key={books.indexOf(item)}>
                             <div className="cardContainer">
                                 {   
                                     <div className='imgBox'>
-                                        <img className='img' src={imgs[books.indexOf(item)]} alt="books-cover-got"></img>
+                                        <img className='bookImg' src={imgs[books.indexOf(item)]}></img>
                                     </div>
             
                                 }
                                 <div className="cardInfo">
-                                    <p className="name">{item.name}</p>
-                                    <p className="author">{item.authors[0]}</p>
+                                    <h3 className="name">{item.name}</h3>
+                                    <h3 className="release">{item.released}</h3>
+                                    <h3 className="author">{item.authors[0]}</h3>
                                     <p className="publisher">{item.publisher}</p>
-                                    <p className="releaseDate">{item.released}</p>
                                 </div>
                             </div>
                         </div>
