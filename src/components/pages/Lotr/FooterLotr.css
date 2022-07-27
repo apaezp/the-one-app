@@ -17,6 +17,9 @@
     padding: 24px;
     background-color: #181818;
     color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 1.9rem;
+    
     }
   
     .footerLotr-quote-text{
@@ -25,7 +28,7 @@
   
     .footerLotr-quote-author {
         font-family: 'Cinzel', serif;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-top: 24px;
 } 
@@ -37,5 +40,6 @@
     justify-content: center;
     color: #fff;
     margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
     }
   

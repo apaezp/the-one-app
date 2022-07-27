@@ -44,8 +44,8 @@ const FooterLotr = () => {
   return (
     <div className="footerLotr-container">
       <section className="footerLotr-quote">
-        <p className="footerLotr-quote-text">{quote}</p>
-        <p className="footerLotr-quote-author">{character}</p>
+        <p className="footerLotr-quote-text">"{quote}"</p>
+        <p className="footerLotr-quote-author">-- {character}.</p>
         <p className=''>{movie}</p>
       </section>
 

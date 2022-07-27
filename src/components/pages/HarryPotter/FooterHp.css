@@ -21,11 +21,12 @@
   
     .footerHp-quote-text{
     font-family: 'Cinzel', serif;
+    font-size: 1.9rem;
     }
   
     .footerHp-quote-author {
         font-family: 'Cinzel', serif;
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         font-weight: bold;
         margin-top: 24px;
 } 

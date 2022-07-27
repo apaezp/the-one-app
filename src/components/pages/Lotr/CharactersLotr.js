@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./CharactersLotr.css";
+import characterImageLotr from "./img/character-cover.jpg"
 //http://hp-api.herokuapp.com/api/characters
 
 const CharactersLotr = () => {
@@ -33,11 +34,12 @@ const CharactersLotr = () => {
     <div>
       {character.map((item) => (
         <div className="characters-lotr-box" key={item._id}>
-          <p>{item.name}</p>
-          <p>{item.race}</p>
-          <p>{item.gender}</p>
+          <img className="characters-lotr-img" src={characterImageLotr} alt="character"></img>
+          <p className="nameLotr">{item.name}</p>
+          <p className="raceNameLotr">{item.race}</p>
+          <p className="genderLotr">{item.gender}</p>
           <p>
-            <a href={item.wikiUrl}>{item.wikiUrl}</a>
+            <a className="linkLotr" href={item.wikiUrl}>{item.wikiUrl}</a>
           </p>
         </div>
       ))}

@@ -6,6 +6,16 @@
         margin: 30px auto 30px auto;  
         background-color: white;
     }
+.movies-containerLotr h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
 .movies-itemLotr {
     display: flex;
     flex-direction: column;
@@ -15,7 +25,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 15px rgb(33, 3, 4);
-    margin: 10px;
+    /* margin: 10px; */
     align-items: center;
     justify-content: center;
 
@@ -24,7 +34,9 @@
 .movies-itemsLotr {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-
+    grid-gap: 20px;
+    width: 90%;
+    margin: 30px auto 30px auto;
     align-items: center;
     justify-content: center;
 
@@ -32,6 +44,7 @@
 .lotrNameMovie {
     font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
     
     text-shadow: 0 0 0.5em #000;
     font-family: 'Cinzel', serif;
@@ -42,7 +55,7 @@
     width: 20rem;
     height: 20rem;
     border-radius: 5%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .movies-itemLotr img {
@@ -55,11 +68,12 @@
 
 
 .lotrDescription {
-    font-size: 1.2em;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Cinzel', serif;
     justify-content: center;
+    text-align: center;
 
 }

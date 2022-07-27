@@ -27,18 +27,21 @@ const BooksLotr = () => {
 
   return (
     <div className="booksLotr-container">
+      
       <section className="booksLotr">
+        <h1> Books </h1>
         {book.map((item) => (
+
           <div className="bookBox" key={book.indexOf(item)}>
-            <div className="cardContainer">
+            <div className="cardContainerLotr">
               {
-                <div className="imgBox" key={book.indexOf(item)}>
-                  <img className="bookImg" src={img[book.indexOf(item)]} alt="book-cover"></img>
+                <div className="imgBoxLotr" key={book.indexOf(item)}>
+                  <img className="bookImgLotr" src={img[book.indexOf(item)]} alt="book-cover"></img>
                 </div>
               }
-              <div className="cardInfo">
-                <p className="name">{item.name}</p>
-                <div className="chapters"></div>
+              <div className="cardInfoLotr">
+                <p className="nameLotr">{item.name}</p>
+                <div className="chaptersLotr"></div>
               </div>
             </div>
           </div>
