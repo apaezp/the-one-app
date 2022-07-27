@@ -10,38 +10,51 @@ const BooksLotr = () => {
   //Estados
   const [book, setBook] = useState([]);
   const [img, setImg] = useState([]);
+  const [chapter, setChapter] = useState([]);
 
   useEffect(() => {
+    const headers = {
+      'Accept': 'application/json',
+      'Authorization': 'Bearer nr9mUBiPDHSvg418q-zm'
+    }
     const fetchData = async () => {
       const rawBooks = await fetch("https://the-one-api.dev/v2/book/");
       const books = await rawBooks.json();
       const book = books.docs;
+      
+      const rawChapters = await fetch("https://the-one-api.dev/v2/chapter/", {headers: headers})
+      const chapters = await rawChapters.json();
+      const chapter = chapters.docs
 
       setBook(book);
       setImg(booksArray);
-      // console.log(book);
-      // console.log(booksArray);
-    };
+      setChapter(chapter);
+      
+      }
+      
+      
+
+      
+      
+  
     fetchData();
   }, []);
 
   return (
     <div className="booksLotr-container">
-      
       <section className="booksLotr">
-        <h1> Books </h1>
-        {book.map((item) => (
-
+        {book.map(item => (
           <div className="bookBox" key={book.indexOf(item)}>
-            <div className="cardContainerLotr">
+            <div className="cardContainer">
               {
-                <div className="imgBoxLotr" key={book.indexOf(item)}>
-                  <img className="bookImgLotr" src={img[book.indexOf(item)]} alt="book-cover"></img>
+                <div className="imgBox" key={img.indexOf(item)}>
+                  <img className="bookImg" src={img[book.indexOf(item)]}></img>
                 </div>
               }
-              <div className="cardInfoLotr">
-                <p className="nameLotr">{item.name}</p>
-                <div className="chaptersLotr"></div>
+              <div className="cardInfo">
+                <h3 className="name">{item.name}</h3>
+                
+                
               </div>
             </div>
           </div>
