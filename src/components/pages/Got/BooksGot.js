@@ -5,6 +5,7 @@ import book2 from './img/book-2.jpg'
 import book3 from './img/book-3.jpg'
 import book4 from './img/book-4.jpg'
 import book5 from './img/book-5.jpg'
+import './BooksGot.css'
 
 const booksArray = [book1,book2,book3,book4,book5]
 
@@ -13,12 +14,15 @@ const BooksGot = () => {
 
     //Estados
     const [books, setBooks] = useState([])
+    const [imgs, setImgs] = useState([])
 
     useEffect(() => {
 
         fetch("https://anapioficeandfire.com/api/books")
             .then(response => response.json())
             .then(data => setBooks([0,1,2,4,7].map(element => data[element])))
+            console.log(booksArray)
+            setImgs(booksArray)
             
     }, [])
 
@@ -30,13 +34,11 @@ const BooksGot = () => {
                     books.map(item => (
                         <div className="Booksbox" key={books.indexOf(item)}>
                             <div className="cardContainer">
-                                {
-                                    booksArray.map(book => (
-                                        
-                                        <div className="imgContainer" key={booksArray.indexOf(book)}>
-                                    <img src={book} className="cardImg" alt="cover"></img>
-                                </div>
-                                    ))
+                                {   
+                                    <div className='imgBox'>
+                                        <img className='img' src={imgs[books.indexOf(item)]} alt="books-cover-got"></img>
+                                    </div>
+            
                                 }
                                 <div className="cardInfo">
                                     <p className="name">{item.name}</p>
