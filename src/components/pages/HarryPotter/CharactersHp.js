@@ -17,7 +17,7 @@ const CharactersHp = () => {
 
   return(
     <div className='containerHp'>
-      <h1>Characters</h1>
+      <h1 className="charactersHpTitle">Characters</h1>
       <div className='charactersHp'>
         {
           character.map(item  => (
@@ -29,7 +29,7 @@ const CharactersHp = () => {
                   <h3 className='nameHp'>{item.name}</h3>
                   <h4 className='birthdayHp'>Birthday: {item.dateOfBirth}</h4>
                   <h4 className='houseHp'>House: {item.house}</h4>
-                  <h4 className='actorHp'>Actor: {item.actor}</h4>
+                  <h4 className='actorHp'>Portrayed by: {item.actor}</h4>
                 </div>
             </div>
           ))

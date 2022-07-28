@@ -1,5 +1,7 @@
 .containerHp{
     width: 100%;
+    background-image: url("./img/forest.jpg");
+    
 }
 .charactersHp{
     
@@ -10,27 +12,54 @@
     width: 100%;
     justify-content: space-around;
 }
+
+.charactersHpTitle {
+    margin: 0%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   
+    font-family: 'Cinzel', serif;
+}
 .cardCharacterHp{
     display: flex;
     flex-direction: column;
     margin: 1em;
-    width: 266px;
+    width: 20%;
     height: 500px;
+    background-color: white;
+    box-shadow: 15px 0px 15px rgb(5, 53, 37);
+    
+    
 }
 .imgCardHp{
-    height: 400px;
-    width: 266px;
+    height: 70%;
+    width: 90%;
+    border-radius: 2.5%;
+    padding: 5%;
 }
 .cardImgHp{
     height: 100%;
     width: 100%;
+    border-radius: 2.5%;
+    align-items: center;
 }
 .cardInfoHp{
-    width: 266px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
+    font-family: 'Cinzel', serif;
+    align-items: center;
+    text-align: justify;
 }
 .nameHp, .birthdayHp,.houseHp, .actorHp{
     margin: 0;
+}
+
+.nameHp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 0.5em #000;
 }

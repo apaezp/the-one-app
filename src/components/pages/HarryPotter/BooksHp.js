@@ -32,7 +32,7 @@ const BooksHp = () => {
 
   return ( 
     <div className='booksHpContainer'>
-      <h1>Books</h1>
+      <h1 className="booksHpTitle">Books</h1>
       <section className='booksHp'>
         {
           book.map (item => (
@@ -45,8 +45,8 @@ const BooksHp = () => {
                 }
                 <div className='bookInfoHp'>
                   <h3 className='nameBookHp'>{item.titulo_original}</h3>
-                  <h3 className='releaseBookHp'>Lanzamiento: {item.fecha_de_lanzamiento}</h3>
-                  <h3 className='authorBookHp'>Autora: {item.autora}</h3>
+                  <h3 className='releaseBookHp'>Released: {item.fecha_de_lanzamiento}</h3>
+                  <h3 className='authorBookHp'>Author: {item.autora}</h3>
                 </div>
               </div>
             </div>

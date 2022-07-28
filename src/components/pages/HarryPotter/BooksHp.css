@@ -1,6 +1,12 @@
+.booksHpContainer {
+  background-image: url("./img/deathly-hallows.png");  
+}
+
+
 .imgBoxHp{
     height: 500px;
     width: 333px;
+
 }
 .bookImgHp{
     height: 100%;
@@ -14,18 +20,30 @@
     align-items: center;
     justify-content: center;
 }
+
+.booksHpTitle {
+    margin: 0%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;   
+    font-family: 'Cinzel', serif;
+}
 .cardContainerHp{
     display: flex;
     flex-direction: column;
+    background-color: white;
     
     margin: 1em;
 }
+
 .bookInfoHp{
     width: 333px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Cinzel', serif;
 
 }
 .nameBookHp{
