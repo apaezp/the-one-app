@@ -43,7 +43,7 @@ const  MoviesHp = () => {
                 </div>
                 <div className="movieInfo">
                   <h3 className="name">{item.titulo_original}</h3>
-                  <p className="description"><strong>Descripcion: </strong>{item.descripcion}</p>
+                  <p className="description"><strong></strong>{item.descripcion}</p>
                 </div>
               </div>
             ))

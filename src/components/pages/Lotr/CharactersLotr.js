@@ -42,12 +42,12 @@ const CharactersLotr = () => {
           </div>
           <div className="cardInfoLotr">
           <h3 className="nameLotr">{item.name}</h3>
-          <h4 className="raceLotr">{item.race}</h4>
-          <h4 className="genderLotr">{item.gender}</h4>
+          <h4 className="raceLotr">Race: {item.race}</h4>
+          <h4 className="genderLotr">Gender: {item.gender}</h4>
           </div>
-          {/* <p>
-            <a className="linkLotr" href={item.wikiUrl}>{item.wikiUrl}</a>
-          </p> */}
+          <p>
+            <a className="linkLotr" href={item.wikiUrl}>More information</a>
+          </p>
         </div>
       ))}
     </div>
