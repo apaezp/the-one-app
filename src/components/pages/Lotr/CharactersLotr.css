@@ -1,5 +1,20 @@
-.charContainerLotr{
+.containerLotr{
     width: 100%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images4.alphacoders.com/843/84316.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+.charactersTitle{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(180, 150, 41);
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 .charactersLotr{
     
@@ -8,29 +23,50 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 .cardCharactersLotr{
     display: flex;
     flex-direction: column;
-    margin: 1em;
     width: 266px;
     height: 500px;
+    margin: 1.5em 2em;    
+    box-shadow: 0px 0px 15px rgba(33, 3, 4);
+    background-color: black;
+    border-radius: 2.5%;
 }
-.imgCharacter{
+.imgCardLotr{
     height: 400px;
     width: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
-.imgCharacterContainer{
-    height: 100%;
-    width: 100%;
+.cardImgLotr{
+    height: 95%;
+    width: 95%;
+    border-radius: 2.5%;
 }
 .cardInfoLotr{
     width: 266px;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url("https://cf.geekdo-images.com/yrBG-BsZd3x-hz-DEUZ5tw__medium/img/gKMi6Ezu-2G_h1Ap8ubLHdL8gxw=/fit-in/500x500/filters:no_upscale():strip_icc()/pic1400597.jpg");
+    background-size: 95% 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(180, 150, 41);
+    justify-content: center;
+    background-color: black;
+    border-radius: 2.5%;
 }
-.nameCharLotr, .raceCharLotr,.genderCharLotr{
-    margin: 0;
+.nameLotr, .raceLotr,.genderLotr{
+    margin: 0.2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }

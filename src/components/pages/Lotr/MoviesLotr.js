@@ -5,7 +5,7 @@ import "./MoviesLotr.css";
 function MoviesLotr() {
   return (
     <div className="movieContainerLotr">
-      <h1>Movies</h1>
+      <h1 className="moviesTitle">Movies</h1>
       <div className="moviesLotr">
         {MoviesLotrDatabase.map((item) => (
           <div className="cardMoviesLotr" key={item.id}>
@@ -13,7 +13,7 @@ function MoviesLotr() {
               <img className="imgMovie" src={item.src} alt={item.name} />
             </div>
             <div className="movieInfoLotr">
-              <h3 className="nameMovieLotr">{item.name}</h3>
+              <h2 className="nameMovieLotr">{item.name}</h2>
               <p className="descriptionMovieLotr">{item.description}</p>
             </div>
           </div>

@@ -45,3 +45,9 @@
   font-family: "Cinzel", serif;
   padding: 1em;
 }
+.moviesTitle{
+  font-size: 3em;
+    font-weight: bold;
+    color: rgb(180, 150, 41);
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
