@@ -31,23 +31,23 @@ const CharactersLotr = () => {
   }, []);
 
   return (
-    <div className='charContainerLotr'>
-      <h1>Characters</h1>
+    <div className='containerLotr'>
+      <h1 className="charactersTitle">Characters</h1>
     <div className="charactersLotr">
       {
       character.map((item) => (
         <div className="cardCharactersLotr" key={item._id}>
-          <div className="imgCharacterContainer">
-          <img className="imgCharacter" src={characterImageLotr} alt="character"></img>
+          <div className="imgCardLotr">
+          <img className="cardImgLotr" src={characterImageLotr} alt="character"></img>
           </div>
-          <div className="charInfoLotr">
-          <h3 className="nameCharLotr">{item.name}</h3>
-          <h4 className="raceCharLotr">Race: {item.race}</h4>
-          <h4 className="genderCharLotr">Gender: {item.gender}</h4>
+          <div className="cardInfoLotr">
+          <h3 className="nameLotr">{item.name}</h3>
+          <h4 className="raceLotr">{item.race}</h4>
+          <h4 className="genderLotr">{item.gender}</h4>
           </div>
-          <p>
-            <a className="linkLotr" href={item.wikiUrl}>More information</a>
-          </p>
+          {/* <p>
+            <a className="linkLotr" href={item.wikiUrl}>{item.wikiUrl}</a>
+          </p> */}
         </div>
       ))}
     </div>

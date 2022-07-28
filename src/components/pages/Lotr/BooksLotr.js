@@ -37,7 +37,7 @@ const BooksLotr = () => {
 
   return (
     <div className="booksLotrContainer">
-      <h1>Books</h1>
+      <h1 className="booksTitle">Books</h1>
       <section className="booksLotr">
         {book.map(item => (
           <div className="bookBoxLotr" key={book.indexOf(item)}>

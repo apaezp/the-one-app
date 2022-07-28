@@ -1,3 +1,22 @@
+.booksLotrContainer{
+    background-image: url("./img/booksBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.booksTitle{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(180, 150, 41);
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
 .imgBoxLotr{
     height: 500px;
     width: 333px;
@@ -28,4 +47,8 @@
 }
 .nameBookLotr{
     text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgb(180, 150, 41);
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
