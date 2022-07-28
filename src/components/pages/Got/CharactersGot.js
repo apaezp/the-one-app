@@ -16,16 +16,19 @@ const CharactersGot = () => {
   }, [])
 
   return(
-    <div className='characters-container'>
-      <div className='gotCharacters'>
+    <div className='containerGot'>
+      <h1>Characters</h1>
+      <div className='charactersGot'>
         {
           character.map(item  => (
-            <div className='box' key={item.id}>
-                <img src={item.imageUrl} alt={item.fullName}/>
-                <div className='gotCharacter'>
-                  <h3 className='gotName'>{item.fullName}</h3>
-                  <h4 className='gotFamily'>{item.family}</h4>
-                  <p className='gotTitle'>{item.title}</p>
+            <div className='cardCharacterGot' key={item.id}>
+                <div className='imgCardGot'>
+                <img className='cardImgGot'src={item.imageUrl} alt={item.fullName}/>
+                </div>
+                <div className='cardInfoGot'>
+                  <h3 className='nameGot'>{item.fullName}</h3>
+                  <h4 className='familyGot'>{item.family}</h4>
+                  <h4 className='titleGot'>{item.title}</h4>
                 </div>
             </div>
           ))

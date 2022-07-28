@@ -1,8 +1,8 @@
-.imgBox{
+.imgBookContainer{
     height: 500px;
     width: 333px;
 }
-.bookImg{
+.imgBook{
     height: 100%;
     width: 100%;
     border-radius: 2.5%;
@@ -12,19 +12,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    
 }
-.cardContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1em;
-}
-.cardInfo{
-    padding-left: 1em;
-    width: 333px;
-    height: 500px;
+.cardContainerLotr{
     display: flex;
     flex-direction: column;
+    width: 100%;
     
-
+    margin: 1em;
 }
+.bookInfoLotr{
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .nameBookLotr{
+    text-align: justify;
+} */

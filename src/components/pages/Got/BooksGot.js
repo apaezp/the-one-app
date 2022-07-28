@@ -21,7 +21,6 @@ const BooksGot = () => {
         fetch("https://anapioficeandfire.com/api/books")
             .then(response => response.json())
             .then(data => setBooks([0,1,2,4,7].map(element => data[element])))
-            console.log(booksArray)
             setImgs(booksArray)
             
     }, [])
@@ -29,6 +28,7 @@ const BooksGot = () => {
 
     return (
         <div className="booksGot-container">
+            <h1>Books</h1>
             <section className="booksGot">
                 {
                     books.map(item => (
