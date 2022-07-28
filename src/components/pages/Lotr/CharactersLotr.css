@@ -1,20 +1,36 @@
-.characters-lotr-box {
+.containerLotr{
+    width: 100%;
+}
+.charactersLotr{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.cardCharacterLotr{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 50%;
-    background-color: #fcf7f7;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgb(33, 3, 4);
-    padding: 20px;
-    margin: 10px;
+    margin: 1em;
+    width: 266px;
+    height: 500px;
 }
-
-.characters-lotr-img {
-    width: 20rem;
-    height: 25rem;
-    border-radius: 5%;
-    margin-top: 10%;
+.imgCardLotr{
+    height: 400px;
+    width: 266px;
+}
+.cardImgLotr{
+    height: 100%;
+    width: 100%;
+}
+.cardInfoLotr{
+    width: 266px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nameLotr, .raceLotr,.genderLotr{
+    margin: 0;
 }

@@ -32,6 +32,7 @@ const BooksHp = () => {
 
   return ( 
     <div className='booksHp-container'>
+      <h1>Books</h1>
       <section className='booksHp'>
         {
           book.map (item => (

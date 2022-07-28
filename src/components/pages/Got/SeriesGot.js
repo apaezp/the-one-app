@@ -1,9 +1,17 @@
 import React from 'react'
 
-function SeriesGot() {
+const SeriesGot = () => {
+
+
+  
+  
+
+
   return (
     <div>SeriesGot</div>
   )
 }
+
+
 
 export default SeriesGot
