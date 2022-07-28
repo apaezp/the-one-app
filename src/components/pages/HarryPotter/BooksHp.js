@@ -31,22 +31,22 @@ const BooksHp = () => {
   }, []);
 
   return ( 
-    <div className='booksHp-container'>
+    <div className='booksHpContainer'>
       <h1>Books</h1>
       <section className='booksHp'>
         {
           book.map (item => (
-            <div className='bookBox' key={book.indexOf(item)}>
-              <div className='cardContainer'>
+            <div className='bookBoxHp' key={book.indexOf(item)}>
+              <div className='cardContainerHp'>
                 {
-                  <div className='imgBox' key={img.indexOf(item)}>
-                    <img className='bookImg' src={img[book.indexOf(item)]} alt="ImgBookHp"></img>
+                  <div className='imgBoxHp' key={img.indexOf(item)}>
+                    <img className='bookImgHp' src={img[book.indexOf(item)]} alt="ImgBookHp"></img>
                   </div>
                 }
-                <div className='cardInfo'>
-                  <h3 className='name'>{item.titulo_original}</h3>
-                  <h3 className='release'>Lanzamiento: {item.fecha_de_lanzamiento}</h3>
-                  <h3 className='author'>Autora: {item.autora}</h3>
+                <div className='bookInfoHp'>
+                  <h3 className='nameBookHp'>{item.titulo_original}</h3>
+                  <h3 className='releaseBookHp'>Lanzamiento: {item.fecha_de_lanzamiento}</h3>
+                  <h3 className='authorBookHp'>Autora: {item.autora}</h3>
                 </div>
               </div>
             </div>

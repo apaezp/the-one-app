@@ -27,24 +27,24 @@ const BooksGot = () => {
 
 
     return (
-        <div className="booksGot-container">
+        <div className="booksGotContainer">
             <h1>Books</h1>
             <section className="booksGot">
                 {
                     books.map(item => (
-                        <div className="Booksbox" key={books.indexOf(item)}>
-                            <div className="cardContainer">
+                        <div className="bookBoxGot" key={books.indexOf(item)}>
+                            <div className="cardContainerGot">
                                 {   
-                                    <div className='imgBox'>
-                                        <img className='bookImg' src={imgs[books.indexOf(item)]} alt="bookIMG"></img>
+                                    <div className='imgBoxGot'>
+                                        <img className='bookImgGot' src={imgs[books.indexOf(item)]} alt="bookIMG"></img>
                                     </div>
             
                                 }
-                                <div className="cardInfo">
-                                    <h3 className="name">{item.name}</h3>
-                                    <h3 className="release">{item.released}</h3>
-                                    <h3 className="author">{item.authors[0]}</h3>
-                                    <p className="publisher">{item.publisher}</p>
+                                <div className="bookInfoGot">
+                                    <h2 className="nameBookGot">{item.name}</h2>
+                                    <h3 className="releaseBookGot">{item.released}</h3>
+                                    <h3 className="authorBookGot">{item.authors[0]}</h3>
+                                    <p className="publisherBookGot">{item.publisher}</p>
                                 </div>
                             </div>
                         </div>
