@@ -9,8 +9,8 @@ export default function HeroSectionLotr() {
   <div className="hero-containerLotr"> 
           
           <h1>“May it be a light to you in dark places, when all other lights go out.”</h1>
-          <p>— Galadriel.</p>
-          <div className="hero-btns">
+          <p className='characterHeroLotr'>— Galadriel.</p>
+          <div className="hero-btnsLotr">
           <Link to='./CharactersLotr' className='btn-mobile'>
             <Button
               className="btns"

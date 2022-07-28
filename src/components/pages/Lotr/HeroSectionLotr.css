@@ -1,5 +1,5 @@
 .hero-containerLotr {
-    background: url("https://cdn.pixabay.com/photo/2019/11/08/20/54/ring-4612457__480.jpg") center center/cover no-repeat;
+    background: url("https://i.gifer.com/8hZR.gif") center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -29,8 +29,12 @@
     font-family: 'Cinzel', serif;
   }
   
-  .hero-btns {
-    margin-top: 32px;
+  .hero-btnsLotr {
+    padding-top: 30px;
+  }
+
+  .characterHeroLotr{
+    margin-bottom: 200px;
   }
   
   .hero-btns .btn {

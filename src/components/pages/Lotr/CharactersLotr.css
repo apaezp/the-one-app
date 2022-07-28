@@ -1,20 +1,17 @@
 .containerLotr{
     width: 100%;
-    background-color: rgb(35, 35, 35);
+    background: linear-gradient(180deg, rgb(24,24,24) 0%, rgb(100, 100, 100) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images4.alphacoders.com/843/84316.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat-y;
+    font-family: 'Cinzel', serif;
 }
 .charactersTitle{
     font-size: 3em;
     font-weight: bold;
-    color: rgb(180, 150, 41);
-    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    color: white;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 .charactersLotr{
     
