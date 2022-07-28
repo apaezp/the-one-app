@@ -36,7 +36,7 @@ const BooksGot = () => {
                             <div className="cardContainer">
                                 {   
                                     <div className='imgBox'>
-                                        <img className='bookImg' src={imgs[books.indexOf(item)]}></img>
+                                        <img className='bookImg' src={imgs[books.indexOf(item)]} alt="bookIMG"></img>
                                     </div>
             
                                 }

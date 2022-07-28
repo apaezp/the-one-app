@@ -39,7 +39,7 @@ const CharactersLotr = () => {
           <p className="raceNameLotr">{item.race}</p>
           <p className="genderLotr">{item.gender}</p>
           <p>
-            <a className="linkLotr" href={item.wikiUrl}>{item.wikiUrl}</a>
+            <a className="linkLotr" href={item.wikiUrl}>More information</a>
           </p>
         </div>
       ))}

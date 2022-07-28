@@ -39,7 +39,7 @@ const BooksHp = () => {
               <div className='cardContainer'>
                 {
                   <div className='imgBox' key={img.indexOf(item)}>
-                    <img className='bookImg' src={img[book.indexOf(item)]}></img>
+                    <img className='bookImg' src={img[book.indexOf(item)]} alt="ImgBookHp"></img>
                   </div>
                 }
                 <div className='cardInfo'>
