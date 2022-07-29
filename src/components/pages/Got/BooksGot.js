@@ -40,9 +40,11 @@ const BooksGot = () => {
     
 
     return (
+        <div className='booksGradient'>
         <div className="booksGotContainer">
-            <h1>Books</h1>
+            <h1 className='booksTitleGot'>Books</h1>
             <section className="booksGot">
+                
                 {
                     books.map(item => {
                         const cleanedDate = new Date(item.released).toLocaleDateString()
@@ -68,6 +70,7 @@ const BooksGot = () => {
                 }
             </section>
             
+        </div>
         </div>
     );
 }

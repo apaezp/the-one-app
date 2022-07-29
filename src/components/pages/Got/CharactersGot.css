@@ -1,5 +1,21 @@
 .containerGot{
     width: 100%;
+    background-image: url("https://prezigram-assets.prezicdn.net/b96d0411ac788accf7b37555a92268a9a53332dc716f647c2969714104a3db5608c543d9531e6571c192020cc636bda41a79a2b2f110372b336fffc8d827525a");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.CharactersGradientGot{
+    background: linear-gradient(180deg, rgb(17, 30, 38) 0%, rgb( 24, 24, 24) 100%);
+}
+.charactersTitleGot{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(25, 25, 25);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
+    font-family: 'Cinzel', serif;
 }
 .charactersGot{
     
@@ -15,21 +31,41 @@
     flex-direction: column;
     margin: 1em;
     width: 266px;
-    height: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 15px rgb(237, 237, 237);
+    border-radius: 2.5%;
 }
 .imgCardGot{
-    height: 400px;
+    height: 300px;
     width: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 30, 38);
+    border-radius: 2.5%;
 }
 .cardImgGot{
-    height: 100%;
-    width: 100%;
+    height: 97%;
+    width: 95%;
+    border-radius: 2.5%;
 }
 .cardInfoGot{
     width: 266px;
-    height: auto;
+    height: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 0.5em;
+    color: white;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(17, 30, 38);
+    text-shadow: -1px 0 white, 0 0.2px white, 0.2px 0 white, 0 -1px white; 
+    text-align: center;
+    border-bottom-left-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    
+
+
 }
 .nameGot, .familyGot,.titleGot{
     margin: 0;

@@ -1,10 +1,12 @@
-.movies-container {
+.movieContainerGot {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(204, 235, 255) 100%);
+
 }
-.movies {
+.moviesGot {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,37 +14,53 @@
   width: auto;
 }
 
-.name {
+.nameMovieGot {
   font-size: 1.5em;
   font-weight: bold;
-  text-shadow: 0 0 0.5em #000;
+  text-shadow: 0 0 0.5em rgb(255, 255, 255);
   font-family: "Cinzel", serif;
   margin: 0px;
 }
 
-.imgContainer {
+.imgMovieContainerGot {
   width: 333px;
   height: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top-left-radius: 2.5%;
+  border-bottom-left-radius: 2.5%;
 }
-.movie-card {
+.cardMoviesGot {
   display: flex;
   flex-direction: row;
   height: 625px;
-  box-shadow: 0px 0px 15px rgb(33, 3, 4);
+  box-shadow: 0px 0px 15px rgb(176, 176, 176);
   margin: 1em auto;
+  border-radius: 2.5%;
 }
 .movieImg {
   width: 100%;
   height: 500px;
+  border-top-left-radius: 2.5%;
+  border-bottom-left-radius: 2.5%;
 }
-.movieInfo {
+.movieInfoGot {
   width: 350px;
   display: flex;
   flex-direction: column;
   font-family: "Cinzel", serif;
   padding: 1em;
+  font-weight: 500;
+  background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(159, 193, 255, 0.4)), url("https://img.freepik.com/free-photo/frost-texture-background_125540-1642.jpg?w=1060&t=st=1659119372~exp=1659119972~hmac=8241085fbae070f86b7c66dd620279382dd8bc8f8bae2dacd7e2e711b378daf6");
+  border-top-right-radius: 2.5%;
+  border-bottom-right-radius: 2.5%;
+}
+.moviesTitleGot{
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(225, 225, 225);
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black; 
+  font-family: 'Cinzel', serif;
 }

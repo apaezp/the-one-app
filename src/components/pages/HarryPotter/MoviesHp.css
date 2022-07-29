@@ -1,11 +1,11 @@
-.movies-container {
+.movieContainerHp {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     background-image: url("./img/deathly-hallows.png");
   }
-  .movies {
+  .moviesHpcardMoviesHp {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
     margin: 0px;
   }
   
-  .imgContainer {
+  .imgMovieContainerHp {
     width: 333px;
     height: 100%;
     background-color: black;
@@ -38,7 +38,7 @@
     justify-content: center;
     border-radius: 5%;
   }
-  .movie-card {
+  .cardMoviesHp {
     display: flex;
     flex-direction: row;
     height: 625px;
@@ -49,11 +49,11 @@
     
     border-radius: 5%;
   }
-  .movieImg {
+  .imgMovieHp {
     width: 100%;
     height: 500px;
   }
-  .movieInfo {
+  .movieInfoHp {
     width: 350px;
     display: flex;
     flex-direction: column;
