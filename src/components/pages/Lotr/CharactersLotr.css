@@ -10,8 +10,9 @@
 .charactersTitleLotr {
   font-size: 3em;
   font-weight: bold;
-  color: white;
+  color: rgb(168, 168, 168);
   text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+  font-family: 'Cinzel', serif;
 }
 .charactersLotr {
   display: flex;
