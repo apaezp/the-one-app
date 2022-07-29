@@ -33,7 +33,7 @@ const  MoviesHp = () => {
 
   return (
     <div className="movies-container">
-        <h1>Movies</h1>
+        <h1 className="moviesHpTitle">Movies</h1>
           <div className="movies">
             {
             movie.map((item) => (

@@ -11,7 +11,10 @@
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    
 }
+
+
 
 .charactersHpTitle {
     margin: 0%;
@@ -30,6 +33,7 @@
     height: 500px;
     background-color: white;
     box-shadow: 15px 0px 15px rgb(5, 53, 37);
+    border-radius: 5%;
     
     
 }
