@@ -1,5 +1,5 @@
 .booksLotrContainer{
-    background-image: url("./img/booksBackground.jpg");
+    background-image: url("https://i.gifer.com/KxK0.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +25,10 @@
     height: 100%;
     width: 100%;
     border-radius: 2.5%;
+    opacity: 60%;
+}
+.bookImgLotr:hover{
+    opacity: 85%;
 }
 .booksLotr{
     display: flex;
@@ -36,7 +40,6 @@
 .cardContainerLotr{
     display: flex;
     flex-direction: column;
-    
     margin: 1em;
 }
 .bookInfoLotr{

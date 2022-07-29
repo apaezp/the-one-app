@@ -31,12 +31,12 @@
     flex-direction: column;
     margin: 1em;
     width: 266px;
-    height: 500px;
+    height: 400px;
     box-shadow: 0px 0px 15px rgb(237, 237, 237);
     border-radius: 2.5%;
 }
 .imgCardGot{
-    height: 400px;
+    height: 300px;
     width: 266px;
     display: flex;
     justify-content: center;

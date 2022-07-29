@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  background: linear-gradient(180deg, rgb(57, 57, 57) 0%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(180deg, rgb(92, 72, 36) 0%, rgb(24, 24, 24) 100%);
   font-family: 'Cinzel', serif;
 }
 .moviesLotr {
@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   height: auto;
   width: auto;
+  margin-bottom: 2em;
 }
 
 .nameMovieLotr {
