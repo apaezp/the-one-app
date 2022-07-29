@@ -1,10 +1,10 @@
-.movies-container {
+.movieContainerGot {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
 }
-.movies {
+.moviesGot {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
   width: auto;
 }
 
-.name {
+.nameMovieGot {
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 0 0 0.5em #000;
@@ -20,7 +20,7 @@
   margin: 0px;
 }
 
-.imgContainer {
+.imgMovieContainerGot {
   width: 333px;
   height: 100%;
   background-color: black;
@@ -28,21 +28,28 @@
   flex-direction: column;
   justify-content: center;
 }
-.movie-card {
+.cardMoviesGot {
   display: flex;
   flex-direction: row;
   height: 625px;
-  box-shadow: 0px 0px 15px rgb(33, 3, 4);
+  box-shadow: 0px 0px 15px white;
   margin: 1em auto;
 }
 .movieImg {
   width: 100%;
   height: 500px;
 }
-.movieInfo {
+.movieInfoGot {
   width: 350px;
   display: flex;
   flex-direction: column;
   font-family: "Cinzel", serif;
   padding: 1em;
+}
+.moviesTitleGot{
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(168, 168, 168);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+  font-family: 'Cinzel', serif;
 }

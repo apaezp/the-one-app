@@ -6,6 +6,26 @@
     height: 100%;
     width: 100%;
     border-radius: 2.5%;
+    box-shadow: 0px 0px 15px rgb(237, 237, 237);
+
+}
+.booksGradient{
+    background: linear-gradient(180deg, rgb(24,24,24) 0%, rgb(255, 255, 255) 100%);
+}
+.booksGotContainer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://prezigram-assets.prezicdn.net/b96d0411ac788accf7b37555a92268a9a53332dc716f647c2969714104a3db5608c543d9531e6571c192020cc636bda41a79a2b2f110372b336fffc8d827525a");
+
+}
+.booksTitleGot{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(25, 25, 25);
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
+    font-family: 'Cinzel', serif;
 }
 .booksGot{
     display: flex;
@@ -13,11 +33,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 .cardContainerGot{
     display: flex;
     flex-direction: column;
-    
     margin: 1em;
 }
 .bookInfoGot{
@@ -26,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    color: white;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 
 }

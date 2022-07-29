@@ -5,12 +5,12 @@ import "./MoviesLotr.css";
 function MoviesLotr() {
   return (
     <div className="movieContainerLotr">
-      <h1 className="moviesTitle">Movies</h1>
+      <h1 className="moviesTitleLotr">Movies</h1>
       <div className="moviesLotr">
         {MoviesLotrDatabase.map((item) => (
           <div className="cardMoviesLotr" key={item.id}>
-            <div className="imgMovieContainer">
-              <img className="imgMovie" src={item.src} alt={item.name} />
+            <div className="imgMovieContainerLotr">
+              <img className="imgMovieLotr" src={item.src} alt={item.name} />
             </div>
             <div className="movieInfoLotr">
               <h2 className="nameMovieLotr">{item.name}</h2>

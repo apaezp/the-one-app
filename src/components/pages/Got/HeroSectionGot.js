@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function HeroSectionGot() {
   return (
+    <div className='heroGradient'>
   <div className="hero-containerGot"> 
           
           <h1>"Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you."</h1>
@@ -62,6 +63,8 @@ export default function HeroSectionGot() {
           </div>
         
       
+    </div>
+
     </div>
   );
 }

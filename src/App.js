@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from './components/ScrollToTop';
 
 
+
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
@@ -23,6 +24,7 @@ import CharactersLotr from "./components/pages/Lotr/CharactersLotr";
 import BooksLotr from "./components/pages/Lotr/BooksLotr";
 import MoviesLotr from "./components/pages/Lotr/MoviesLotr";
 import FooterLotr from "./components/pages/Lotr/FooterLotr";
+
 
 
 

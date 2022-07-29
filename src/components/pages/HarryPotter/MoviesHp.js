@@ -32,18 +32,18 @@ const  MoviesHp = () => {
   }, [])
 
   return (
-    <div className="movies-container">
-        <h1>Movies</h1>
-          <div className="movies">
+    <div className="movieContainerHp">
+        <h1 className='moviesTitleHp'>Movies</h1>
+          <div className="moviesHp">
             {
             movie.map((item) => (
-              <div className="movie-card" key={item.id}>
-                <div className="imgContainer">
-                  <img className="movieImg" src={img[movie.indexOf(item)]} alt={item.titulo_original} />
+              <div className="cardMoviesHp" key={item.id}>
+                <div className="imgMovieContainerHp">
+                  <img className="imgMovieHp" src={img[movie.indexOf(item)]} alt={item.titulo_original} />
                 </div>
-                <div className="movieInfo">
-                  <h3 className="name">{item.titulo_original}</h3>
-                  <p className="description"><strong></strong>{item.descripcion}</p>
+                <div className="movieInfoHp">
+                  <h3 className="nameMovieHp">{item.titulo_original}</h3>
+                  <p className="descriptionMovieHp"><strong></strong>{item.descripcion}</p>
                 </div>
               </div>
             ))

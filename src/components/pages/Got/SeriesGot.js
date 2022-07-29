@@ -4,17 +4,17 @@ import "./SeriesGot.css";
 
 const SeriesGot = () => {
   return (
-    <div className="movies-container">
-      <h1>TV Series</h1>
-      <div className="movies">
+    <div className="movieContainerGot">
+      <h1 className="moviesTitleGot">TV Series</h1>
+      <div className="moviesGot">
         {SeriesGotDatabase.map((item) => (
-          <div className="movie-card" key={item.id}>
-            <div className="imgContainer">
-              <img className="movieImg" src={item.src} alt={item.name} />
+          <div className="cardMoviesGot" key={item.id}>
+            <div className="imgMovieContainerGot">
+              <img className="imgMovieGot" src={item.src} alt={item.name} />
             </div>
-            <div className="movieInfo">
-              <h3 className="name">{item.name}</h3>
-              <p className="description">{item.description}</p>
+            <div className="movieInfoGot">
+              <h3 className="nameMovieGot">{item.name}</h3>
+              <p className="descriptionMovieGot">{item.description}</p>
             </div>
           </div>
         ))}

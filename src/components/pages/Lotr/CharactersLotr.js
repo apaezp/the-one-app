@@ -32,7 +32,7 @@ const CharactersLotr = () => {
 
   return (
     <div className='containerLotr'>
-      <h1 className="charactersTitle">Characters</h1>
+      <h1 className="charactersTitleLotr">Characters</h1>
     <div className="charactersLotr">
       {
       character.map((item) => (

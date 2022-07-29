@@ -17,7 +17,7 @@ const CharactersHp = () => {
 
   return(
     <div className='containerHp'>
-      <h1 className="charactersHpTitle">Characters</h1>
+      <h1 className="charactersTitleHp">Characters</h1>
       <div className='charactersHp'>
         {
           character.map(item  => (

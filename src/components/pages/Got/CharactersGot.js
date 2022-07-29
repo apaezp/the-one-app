@@ -16,8 +16,9 @@ const CharactersGot = () => {
   }, [])
 
   return(
+    <div className='CharactersGradientGot'>
     <div className='containerGot'>
-      <h1>Characters</h1>
+      <h1 className='charactersTitleGot'>Characters</h1>
       <div className='charactersGot'>
         {
           character.map(item  => (
@@ -35,6 +36,8 @@ const CharactersGot = () => {
         }
       </div>
     </div>
+    </div>
+
   );
 }
 
