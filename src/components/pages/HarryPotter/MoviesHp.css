@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    background-image: url("./img/deathly-hallows.png");
   }
   .moviesHpcardMoviesHp {
     display: flex;
@@ -11,17 +12,20 @@
     height: auto;
     width: auto;
   }
-  .moviesTitleHp{
-    font-size: 3em;
+
+  .moviesHpTitle {
+    margin: 0%;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    font-family: 'Cinzel', serif;
   }
-  .nameMovieHp {
+  
+  .name {
     font-size: 1.5em;
     font-weight: bold;
-    text-shadow: 0 0 0.5em #000;
-    
+    text-shadow: 0 0 0.5em #000;    
     margin: 0px;
   }
   
@@ -32,13 +36,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 5%;
   }
   .cardMoviesHp {
     display: flex;
     flex-direction: row;
     height: 625px;
-    box-shadow: 0px 0px 15px rgb(33, 3, 4);
+    box-shadow: 10px 0px 25px rgb(33, 3, 4);
     margin: 1em auto;
+    background-color: white;
+    
+    
+    border-radius: 5%;
   }
   .imgMovieHp {
     width: 100%;
@@ -50,5 +59,11 @@
     flex-direction: column;
     padding: 1em;
     font-family: 'Cinzel', serif;
+    text-align: justify;
+    background-image: url("./img/spark.gif");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    background-size: 100%;
   }
   

@@ -11,9 +11,12 @@
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    
 }
 
-.charactersTitleHp {
+
+
+.charactersHpTitle {
     margin: 0%;
     font-size: 2.5rem;
     font-weight: bold;
@@ -30,6 +33,7 @@
     height: 500px;
     background-color: white;
     box-shadow: 15px 0px 15px rgb(5, 53, 37);
+    border-radius: 5%;
     
     
 }
