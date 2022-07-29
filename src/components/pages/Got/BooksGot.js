@@ -22,16 +22,33 @@ const BooksGot = () => {
             .then(response => response.json())
             .then(data => setBooks([0,1,2,4,7].map(element => data[element])))
             setImgs(booksArray)
-            
-    }, [])
 
+
+    //     const getDate = (books) =>{
+    //     for(let date of books){
+    //         let bookDate = new Date(date.released)
+    //         const myString = bookDate.toDateString       
+    //         console.log(myString)
+    //             }
+    // }    
+    // getDate()          
+            
+    }
+    , [])
+    
+      
+    
 
     return (
         <div className="booksGotContainer">
             <h1>Books</h1>
             <section className="booksGot">
                 {
-                    books.map(item => (
+                    books.map(item => {
+                        const cleanedDate = new Date(item.released).toLocaleDateString()
+                        console.log(item.released)
+
+                    return    (
                         <div className="bookBoxGot" key={books.indexOf(item)}>
                             <div className="cardContainerGot">
                                 {   
@@ -42,13 +59,12 @@ const BooksGot = () => {
                                 }
                                 <div className="bookInfoGot">
                                     <h2 className="nameBookGot">{item.name}</h2>
-                                    <h3 className="releaseBookGot">{item.released}</h3>
+                                    <h3 className="releaseBookGot">Released: {cleanedDate}</h3>
                                     <h3 className="authorBookGot">{item.authors[0]}</h3>
-                                    <p className="publisherBookGot">{item.publisher}</p>
                                 </div>
                             </div>
                         </div>
-                    ))
+                    )})
                 }
             </section>
             
