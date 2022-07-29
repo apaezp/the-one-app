@@ -65,8 +65,9 @@
 .moviesTitleLotr {
   font-size: 3em;
   font-weight: bold;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: rgb(168, 168, 168);
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+  font-family: "Cinzel", serif;
 }
 .descriptionMovieLotr {
   font-size: 1em;
