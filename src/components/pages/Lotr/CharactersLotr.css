@@ -1,72 +1,71 @@
-.containerLotr{
-    width: 100%;
-    background: linear-gradient(180deg, rgb(24,24,24) 0%, rgb(92, 72, 36) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Cinzel', serif;
+.containerLotr {
+  width: 100%;
+  background: linear-gradient(180deg, rgb(24, 24, 24) 0%, rgb(92, 72, 36) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cinzel", serif;
 }
-.charactersTitleLotr{
-    font-size: 3em;
-    font-weight: bold;
-    color: white;
-    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+.charactersTitleLotr {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
-.charactersLotr{
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    
+.charactersLotr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 /* .cardCharactersLotr:hover{
     transform: rotateY(180deg);
 } */
-.cardCharactersLotr{
-    display: flex;
-    flex-direction: column;
-    width: 266px;
-    height: 500px;
-    margin: 1.5em 2em;    
-    box-shadow: 0px 0px 15px rgba(33, 3, 4);
-    background-color: black;
-    border-radius: 2.5%;
+.cardCharactersLotr {
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+  height: 500px;
+  margin: 1.5em 2em;
+  box-shadow: 0px 0px 15px rgba(33, 3, 4);
+  background-color: black;
+  border-radius: 2.5%;
 }
-.imgCardLotr{
-    height: 400px;
-    width: 266px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.imgCardLotr {
+  height: 400px;
+  width: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cardImgLotr{
-    height: 95%;
-    width: 95%;
-    border-radius: 2.5%;
+.cardImgLotr {
+  height: 95%;
+  width: 95%;
+  border-radius: 2.5%;
 }
-.cardInfoLotr{
-    width: 266px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-image: url("https://cf.geekdo-images.com/yrBG-BsZd3x-hz-DEUZ5tw__medium/img/gKMi6Ezu-2G_h1Ap8ubLHdL8gxw=/fit-in/500x500/filters:no_upscale():strip_icc()/pic1400597.jpg");
-    background-size: 95% 95%;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: rgb(180, 150, 41);
-    justify-content: center;
-    background-color: black;
-    border-radius: 2.5%;
+.cardInfoLotr {
+  width: 266px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://cf.geekdo-images.com/yrBG-BsZd3x-hz-DEUZ5tw__medium/img/gKMi6Ezu-2G_h1Ap8ubLHdL8gxw=/fit-in/500x500/filters:no_upscale():strip_icc()/pic1400597.jpg");
+  background-size: 95% 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(180, 150, 41);
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  border-radius: 2.5%;
 }
-.nameLotr, .raceLotr,.genderLotr{
-    margin: 0.2em;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-left: 1em;
-    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+.nameLotr,
+.raceLotr,
+.genderLotr {
+  margin: 0.2em;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }

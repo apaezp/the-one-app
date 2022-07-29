@@ -5,7 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
+    background-image: url('https://st1.uvnimg.com/dims4/default/01ed0e7/2147483647/thumbnail/480x270/quality/75/format/jpg/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fg%2Fgame-of-thrones-viserion-got.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
   
     .footerGot-quote {
     display: flex;
@@ -15,7 +20,7 @@
     text-align: center;  
     margin-bottom: 24px;
     padding: 24px;
-    background-color: #181818;
+    /* background-color: #181818; */
     color: #fff;
     }
   
@@ -33,7 +38,7 @@
   
   
     .footerGot-rights{
-    background-color: #181818;
+    /* background-color: #181818; */
     display: flex;
     justify-content: center;
     color: #fff;
