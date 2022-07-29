@@ -5,6 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("https://bookstr.com/wp-content/uploads/2019/03/0sMr-BCAuLfq4XmHY.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     }
   
     .footerLotr-quote {
@@ -15,7 +20,7 @@
     text-align: center;  
     margin-bottom: 24px;
     padding: 24px;
-    background-color: #181818;
+    /* background-color: #181818; */
     color: #fff;
     font-family: 'Cinzel', serif;
     font-size: 1.9rem;
@@ -35,7 +40,7 @@
   
   
     .footerLotr-rights {
-    background-color: #181818;
+    /* background-color: #181818; */
     display: flex;
     justify-content: center;
     color: #fff;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./CharactersLotr.css";
-import characterImageLotr from "./img/character-cover.jpg"
+import characterImageLotr from "./img/character-cover.jpg";
 //http://hp-api.herokuapp.com/api/characters
 
 const CharactersLotr = () => {
@@ -31,26 +31,29 @@ const CharactersLotr = () => {
   }, []);
 
   return (
-    <div className='containerLotr'>
+    <div className="containerLotr">
       <h1 className="charactersTitleLotr">Characters</h1>
-    <div className="charactersLotr">
-      {
-      character.map((item) => (
-        <div className="cardCharactersLotr" key={item._id}>
-          <div className="imgCardLotr">
-          <img className="cardImgLotr" src={characterImageLotr} alt="character"></img>
-          </div>
-          <div className="cardInfoLotr">
-          <h3 className="nameLotr">{item.name}</h3>
-          <h4 className="raceLotr">{item.race}</h4>
-          <h4 className="genderLotr">{item.gender}</h4>
-          </div>
-          {/* <p>
+      <div className="charactersLotr">
+        {character.map((item) => (
+          <div className="cardCharactersLotr" key={item._id}>
+            <div className="imgCardLotr">
+              <img
+                className="cardImgLotr"
+                src={characterImageLotr}
+                alt="character"
+              ></img>
+            </div>
+            <div className="cardInfoLotr">
+              <h3 className="nameLotr">{item.name}</h3>
+              <h4 className="raceLotr">{item.race}</h4>
+              <h4 className="genderLotr">{item.gender}</h4>
+            </div>
+            {/* <p>
             <a className="linkLotr" href={item.wikiUrl}>{item.wikiUrl}</a>
           </p> */}
-        </div>
-      ))}
-    </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

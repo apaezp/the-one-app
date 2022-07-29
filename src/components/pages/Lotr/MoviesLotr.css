@@ -3,8 +3,8 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  background: linear-gradient(180deg, rgb(92, 72, 36) 0%, rgb(24, 24, 24) 100%);
-  font-family: 'Cinzel', serif;
+  background: linear-gradient(180deg, rgb(92, 72, 36) 0%, rgb(40, 19, 8) 100%);
+  font-family: "Cinzel", serif;
 }
 .moviesLotr {
   display: flex;
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   height: auto;
   width: auto;
-  margin-bottom: 2em;
+  border-radius: 2.5%;
 }
 
 .nameMovieLotr {
@@ -30,6 +30,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top-left-radius: 2.5%;
+  border-bottom-left-radius: 2.5%;
 }
 .cardMoviesLotr {
   display: flex;
@@ -37,10 +39,13 @@
   box-shadow: 0px 0px 15px rgb(33, 3, 4);
   margin: 1em auto;
   background: white;
+  border-radius: 2.5%;
 }
 .imgMovieLotr {
   width: 100%;
   height: 500px;
+  border-top-left-radius: 2.5%;
+  border-bottom-left-radius: 2.5%;
 }
 .movieInfoLotr {
   width: 350px;
@@ -49,22 +54,27 @@
   font-family: "Cinzel", serif;
   padding: 1em;
   text-align: justify;
+  background-image: linear-gradient(rgba(80, 80, 80, 0.5), rgba(0, 0, 0, 0.4)),
+    url("https://w0.peakpx.com/wallpaper/446/703/HD-wallpaper-one-ring-inscription-lord-of-the-rings-one-ring.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-right-radius: 2.5%;
+  border-bottom-right-radius: 2.5%;
 }
-.moviesTitleLotr{
+.moviesTitleLotr {
   font-size: 3em;
-    font-weight: bold;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.descriptionMovieLotr{
-  font-size: 1em;
-  font-weight: light;
-  color: black;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-}
-.nameMovieLotr{
-  font-size: 1.5em;
-  font-weight: light;
-  color: black;
+  font-weight: bold;
+  color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.descriptionMovieLotr {
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(186, 148, 76);
+}
+.nameMovieLotr {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(186, 148, 76);
 }
