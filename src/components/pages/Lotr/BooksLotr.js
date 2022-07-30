@@ -23,7 +23,7 @@ const BooksLotr = () => {
 
       setBook(book);
       setImg(booksArray);
-      
+     
       
       }
       
