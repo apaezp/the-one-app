@@ -56,3 +56,31 @@
   color: white;
   text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
+
+@media screen and (max-width: 768px) {
+  .booksLotrContainer {
+    height: 100%;
+
+  }
+  .imgBoxLotr {
+    height: 350px;
+    width: 400px;
+  }
+  .bookBoxLotr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .bookInfoLotr {
+    width: 100%;
+    height: 80%;
+  }
+  .nameBookLotr {
+    font-size: 1.5em;
+  }
+}

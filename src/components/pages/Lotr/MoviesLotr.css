@@ -79,3 +79,33 @@
   font-weight: 500;
   color: rgb(186, 148, 76);
 }
+
+@media screen and (max-width: 668px) {
+  .movieContainerLotr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .moviesLotr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 100%;
+    margin-top: -25px;
+    border-radius: 2.5%;
+  }
+
+  .moviesTitleLotr {
+    font-size: 1.8em;
+  }
+  .movieInfoLotr {
+    width: 60%;
+  }
+  .descriptionMovieLotr {
+    font-size: 0.8em;
+  }
+}
