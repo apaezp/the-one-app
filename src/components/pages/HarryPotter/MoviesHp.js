@@ -20,6 +20,7 @@ const  MoviesHp = () => {
 
   useEffect(() => {
 
+    try {
     const fetchData = async () => {
       const rawMovies = await fetch('https://harry-potter-api-production.up.railway.app/libros')
       const movie = await rawMovies.json();
@@ -27,14 +28,18 @@ const  MoviesHp = () => {
       console.log(movie)
       setImg(arrayMovies)
     }
-    fetchData()
+    fetchData();
+
+    } catch (error) {
+      console.log(error)
+    }
 
   }, [])
 
   return (
-    <div className="movies-container">
+    <div className="movieContainerHp">
         <h1 className="moviesHpTitle">Movies</h1>
-          <div className="movies">
+          <div className="moviesHpcardMoviesHp">
             {
             movie.map((item) => (
               <div className="cardMoviesHp" key={item.id}>

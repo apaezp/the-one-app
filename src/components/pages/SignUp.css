@@ -1,33 +1,72 @@
+body {
+    margin: 0px;
+}
+  
+  
+video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+}
+    
+.signup-container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+}
 
 .form{
-    background-color: white;
-    border-radius: 5px;
-    width: 550px;
-    margin: 20px auto;
-    padding: 20px;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;    
+    align-items: center;
+    padding: 40px;
+    color: white;
     font-family: 'Cinzel', serif;
-    height: 50%;
+    height: 100%;
+    
+    
 }
 
 .form-body{
-    justify-content: center;
+      
+    
     padding: 20px 10px;
 }
 
 .form-body > *{
-    padding: 5px;
+    padding: 25px;
 }
 
 .form__label {
-    width: 40%;
+    width: 70%;
 }
 
-.form_input{
-    width: 100%;
+.form__input{
+    align-items: right;
+    width: 80%;
+}
+
+.form__label_email {
+    width: 63%;
 }
 
 .footer{
-    text-align: left;
+    text-align: justify;
     font-family: 'Cinzel', serif;
+}
+
+.btnSignUp {
+    background-color: #2f169c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    cursor: pointer;
 }

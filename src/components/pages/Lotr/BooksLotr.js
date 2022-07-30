@@ -13,18 +13,13 @@ const BooksLotr = () => {
   
 
   useEffect(() => {
-    const headers = {
-      'Accept': 'application/json',
-      'Authorization': 'Bearer nr9mUBiPDHSvg418q-zm'
-    }
+    
     const fetchData = async () => {
       const rawBooks = await fetch("https://the-one-api.dev/v2/book/");
       const books = await rawBooks.json();
       const book = books.docs;
       
-      const rawChapters = await fetch("https://the-one-api.dev/v2/chapter/", {headers: headers})
-      const chapters = await rawChapters.json();
-      const chapter = chapters.docs
+      
 
       setBook(book);
       setImg(booksArray);

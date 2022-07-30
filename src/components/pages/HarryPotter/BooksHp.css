@@ -11,7 +11,11 @@
 .bookImgHp{
     height: 100%;
     width: 100%;
-    border-radius: 2.5%;
+    border-top-left-radius: 2.5%;
+    align-items: center;
+    justify-content: center;
+    
+    border-top-right-radius: 2.5%;
 }
 .booksHp{
     display: flex;
@@ -32,8 +36,9 @@
 .cardContainerHp{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 5%;
+    background-color: black;
+    border-radius: 2.5%;
+    box-shadow: 10px 0px 25px rgb(33, 3, 4);
     
     margin: 1em;
 }
@@ -45,6 +50,9 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Cinzel', serif;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 10px 0px 25px rgb(33, 3, 4);
 
 }
 .nameBookHp{

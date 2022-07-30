@@ -1,18 +1,20 @@
   .quotebox {
     height: auto;
-    width: 100%;
-    border: 1px rgb(145, 126, 126) solid;
+    width: 100%;    
     border-radius: 10px;
     text-align: right;
     max-width: 35rem;
     font-family: 'Cinzel', serif;
-    background-color: #181818;
+    
+   
     
   }
   
   #quote {
     margin: 20px;
     text-align: left;
+    color: black;
+    font-size: 1.9rem;
   }
   
   .fadeIn {
@@ -35,6 +37,9 @@
   #author {
     margin: 20px;
     font-style: italic;
+    color: black;
+    font-size: 1.5rem;
+
   }
   
   #newquote {

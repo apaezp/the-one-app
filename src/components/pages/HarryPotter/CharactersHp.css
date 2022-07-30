@@ -16,7 +16,7 @@
 
 
 
-.charactersHpTitle {
+.charactersTitleHp {
     margin: 0%;
     font-size: 2.5rem;
     font-weight: bold;
@@ -31,7 +31,7 @@
     margin: 1em;
     width: 20%;
     height: 500px;
-    background-color: white;
+    background-color: black;
     box-shadow: 15px 0px 15px rgb(5, 53, 37);
     border-radius: 5%;
     
@@ -42,6 +42,7 @@
     width: 90%;
     border-radius: 2.5%;
     padding: 5%;
+    
 }
 .cardImgHp{
     height: 100%;
@@ -57,6 +58,7 @@
     font-family: 'Cinzel', serif;
     align-items: center;
     text-align: justify;
+    color: white;
 }
 .nameHp, .birthdayHp,.houseHp, .actorHp{
     margin: 0;

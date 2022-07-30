@@ -9,9 +9,15 @@ const CharactersGot = () => {
 
   useEffect(() => {
 
+    try {
+
     fetch("https://thronesapi.com/api/v2/Characters")
     .then(response => response.json())
     .then(data => setCharacter(data.slice(0,12)))
+
+    } catch (error) {
+      console.log(error)
+    }
 
   }, [])
 
