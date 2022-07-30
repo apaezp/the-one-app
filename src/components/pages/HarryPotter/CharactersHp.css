@@ -20,6 +20,7 @@
   font-weight: bold;
   color: white;
   text-align: center;
+  text-shadow: -1px 0 rgb(148, 25, 25), 0 3px rgb(80, 50, 87), 3px 0 black, 0 -1px black;
 
   font-family: "Cinzel", serif;
 }

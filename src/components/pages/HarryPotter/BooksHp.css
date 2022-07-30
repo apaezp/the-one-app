@@ -33,6 +33,7 @@
   color: white;
   text-align: center;
   font-family: "Cinzel", serif;
+  text-shadow: -1px 0 rgb(146, 9, 9), 0 3px rgb(19, 103, 53), 3px 0 rgb(64, 49, 97), 0 -1px black;
 }
 .cardContainerHp {
   display: flex;

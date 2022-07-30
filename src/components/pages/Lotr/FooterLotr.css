@@ -9,6 +9,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
+    margin-bottom: 0%;
 
     }
   
@@ -46,5 +48,6 @@
     color: #fff;
     margin-bottom: 16px;
     font-family: 'Cinzel', serif;
+    height: 100%;
     }
   
