@@ -32,9 +32,9 @@ const  MoviesHp = () => {
   }, [])
 
   return (
-    <div className="movies-container">
+    <div className="movieContainerHp">
         <h1 className="moviesHpTitle">Movies</h1>
-          <div className="movies">
+          <div className="moviesHpcardMoviesHp">
             {
             movie.map((item) => (
               <div className="cardMoviesHp" key={item.id}>

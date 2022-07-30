@@ -49,7 +49,7 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin:0,0,0, 2rem;
   }
   
   .nav-item {

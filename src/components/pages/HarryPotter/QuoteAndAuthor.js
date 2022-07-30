@@ -8,7 +8,7 @@ class QuoteAndAuthor extends React.Component {
     html.style.backgroundColor = randomColor;
 
     return (
-      <div style={{ backgroundColor: "black" }} className="quotebox">
+      <div style={{ backgroundColor: "" }} className="quotebox">
         <div
           className="fadeIn"
           key={Math.random()}

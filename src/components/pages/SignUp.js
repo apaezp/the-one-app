@@ -1,10 +1,14 @@
 import React from 'react';
 import "./SignUp.css";
+import Video from '../videos/signup.mp4';
 
 
 export default function SignUp() {
     return(
-      <div className="form">
+        <div className="signup-container">
+            <video src={Video} autoPlay loop muted />
+
+      <div className="form">        
           <div className="form-body">
               <div className="username">
                   <label className="form__label" >First Name </label>
@@ -15,8 +19,9 @@ export default function SignUp() {
                   <input  type="text" name="" id="lastName"  className="form__input"placeholder="Last Name"/>
               </div>
               <div className="email">
-                  <label className="form__label" >Email </label>
-                  <input  type="email" id="email" className="form__input" placeholder="Email"/>
+                  <label className="form__label" >Email </label>                  
+                  <input className="form__label_email" type="email" id="email" placeholder="Email"/>
+                  
               </div>
               <div className="password">
                   <label className="form__label" >Password </label>
@@ -28,9 +33,10 @@ export default function SignUp() {
               </div>
           </div>
           <div className="footer">
-              <button type="submit" className="btn" >Register</button>
+              <button type="submit" className="btnSignUp" >Register</button>
               {/* onClick= {(prompt("Thank you!")) } */}
           </div>
       </div>      
+        </div>
     )       
 }
