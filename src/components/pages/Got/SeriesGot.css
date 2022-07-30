@@ -43,8 +43,6 @@
 .movieImg {
   width: 100%;
   height: 500px;
-  border-top-left-radius: 2.5%;
-  border-bottom-left-radius: 2.5%;
 }
 .movieInfoGot {
   width: 350px;

@@ -10,7 +10,7 @@ const BooksLotr = () => {
   //Estados
   const [book, setBook] = useState([]);
   const [img, setImg] = useState([]);
-  const [chapter, setChapter] = useState([]);
+  
 
   useEffect(() => {
     const headers = {
@@ -28,7 +28,7 @@ const BooksLotr = () => {
 
       setBook(book);
       setImg(booksArray);
-      setChapter(chapter);
+     
       
       }
       
