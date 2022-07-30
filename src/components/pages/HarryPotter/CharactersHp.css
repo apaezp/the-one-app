@@ -1,71 +1,69 @@
-.containerHp{
-    width: 100%;
-    background-image: url("./img/forest.jpg");
-    
+.containerHp {
+  width: 100%;
+  background-image: url("./img/forest.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.charactersHp{
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    
+.charactersHp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 }
-
-
 
 .charactersTitleHp {
-    margin: 0%;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-   
-    font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+  font-family: "Cinzel", serif;
 }
-.cardCharacterHp{
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-    width: 20%;
-    height: 500px;
-    background-color: black;
-    box-shadow: 15px 0px 15px rgb(5, 53, 37);
-    border-radius: 5%;
-    
-    
+.cardCharacterHp {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  width: 20%;
+  height: 500px;
+  background-color: black;
+  box-shadow: 15px 0px 15px rgb(5, 53, 37);
+  border-radius: 5%;
 }
-.imgCardHp{
-    height: 70%;
-    width: 90%;
-    border-radius: 2.5%;
-    padding: 5%;
-    
+.imgCardHp {
+  height: 70%;
+  width: 90%;
+  border-radius: 2.5%;
+  padding: 5%;
 }
-.cardImgHp{
-    height: 100%;
-    width: 100%;
-    border-radius: 2.5%;
-    align-items: center;
+.cardImgHp {
+  height: 100%;
+  width: 100%;
+  border-radius: 2.5%;
+  align-items: center;
 }
-.cardInfoHp{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Cinzel', serif;
-    align-items: center;
-    text-align: justify;
-    color: white;
+.cardInfoHp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Cinzel", serif;
+  align-items: center;
+  text-align: justify;
+  color: white;
 }
-.nameHp, .birthdayHp,.houseHp, .actorHp{
-    margin: 0;
+.nameHp,
+.birthdayHp,
+.houseHp,
+.actorHp {
+  margin: 0;
 }
 
 .nameHp {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-shadow: 0 0 0.5em #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 0.5em #000;
 }
