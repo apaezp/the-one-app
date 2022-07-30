@@ -9,6 +9,9 @@ const CharactersLotr = () => {
   const [character, setCharacter] = useState([]);
 
   useEffect(() => {
+
+    try {
+    
     const headers = {
       Accept: "application/json",
       Authorization: "Bearer nr9mUBiPDHSvg418q-zm",
@@ -28,6 +31,12 @@ const CharactersLotr = () => {
       console.log(character);
     };
     fetchData();
+
+    } catch (error) {
+      console.log(error);
+    }
+
+
   }, []);
 
   return (

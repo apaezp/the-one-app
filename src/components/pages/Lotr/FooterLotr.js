@@ -11,6 +11,10 @@ const FooterLotr = () => {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
+
+    try {
+
+    
     const headers = {
       'Accept': 'application/json',
       'Authorization': 'Bearer nr9mUBiPDHSvg418q-zm'
@@ -38,7 +42,12 @@ const FooterLotr = () => {
       console.log(character.name)
      
     }
-    fetchData()
+    fetchData();
+
+    } catch (error) {
+      console.log(error)
+    }
+
     
   }, [])
   return (

@@ -62,3 +62,58 @@
   text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black; 
   font-family: 'Cinzel', serif;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .movieContainerGot{
+  display: flex;
+  flex-direction: column;  
+  gap: 30px;
+  width: 80%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  }
+  .cardMoviesGot{
+    
+    height: 100%;
+    width: 100%;
+  }
+
+  .imgMovieContainerGot{
+    width: 50%;
+    height: 50%;
+  }
+
+  .movieInfoGot{
+    width: 80%;
+    height: 80%
+  }
+
+  .moviesTitleGot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  .descriptionMovieGot{
+    display: flex;
+    
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0.7em;
+    font-family: 'Cinzel', serif;
+    text-align: justify;
+  }
+
+
+}

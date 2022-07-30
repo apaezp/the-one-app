@@ -89,8 +89,15 @@
   }
   
   @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .nav-item {
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      top: -300px;
+
+
     }
   
     .nav-menu {
@@ -106,18 +113,23 @@
     }
   
     .nav-menu.active {
+      display: flex;
+      flex-direction: column;
       background: #242222;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
+      height: 90vh;
+      
     }
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding: 10rem;
       width: 100%;
       display: table;
+      top: 10px;
     }
   
     .nav-links:hover {

@@ -61,7 +61,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
+            <li className="nav-item">
               <Link
                 to='/pages/HarryPotter/HomeHP'
                 className='nav-links'
