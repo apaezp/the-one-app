@@ -19,6 +19,8 @@ const BooksHp = () => {
 
   useEffect(() => {
 
+    try {
+ 
     const fetchData = async () => {
       const rawBooks = await fetch('https://harry-potter-api-production.up.railway.app/libros')
       const book = await rawBooks.json();
@@ -26,7 +28,10 @@ const BooksHp = () => {
       setBook(book)
       setImg(booksArray)
     }
-    fetchData()
+    fetchData();
+    } catch (error) {
+      console.log(error)
+    }
 
   }, []);
 

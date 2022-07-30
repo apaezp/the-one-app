@@ -20,6 +20,7 @@ const  MoviesHp = () => {
 
   useEffect(() => {
 
+    try {
     const fetchData = async () => {
       const rawMovies = await fetch('https://harry-potter-api-production.up.railway.app/libros')
       const movie = await rawMovies.json();
@@ -27,7 +28,11 @@ const  MoviesHp = () => {
       console.log(movie)
       setImg(arrayMovies)
     }
-    fetchData()
+    fetchData();
+
+    } catch (error) {
+      console.log(error)
+    }
 
   }, [])
 

@@ -18,10 +18,17 @@ const BooksGot = () => {
 
     useEffect(() => {
 
+        try {
+
         fetch("https://anapioficeandfire.com/api/books")
             .then(response => response.json())
             .then(data => setBooks([0,1,2,4,7].map(element => data[element])))
             setImgs(booksArray)
+
+        } catch (error) {
+            console.log(error)
+        }
+        
 
 
     //     const getDate = (books) =>{

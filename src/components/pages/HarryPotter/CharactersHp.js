@@ -8,10 +8,15 @@ const CharactersHp = () => {
   const [character, setCharacter] = useState([])
 
   useEffect(() => {
-
+    
+    try {
     fetch("http://hp-api.herokuapp.com/api/characters")
     .then(response => response.json())
     .then(data => setCharacter(data.slice(0,12)))
+
+    } catch (error) {
+      console.log(error)
+    }
 
   }, [])
 
