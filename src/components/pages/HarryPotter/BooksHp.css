@@ -59,3 +59,37 @@
 .nameBookHp {
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .bookImgHp {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 2.5%;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 2.5%;
+  }
+  .imgBoxHp {
+    height: 300px;
+    width: 330px;
+    align-items: center;
+  }
+  .booksHp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bookImgHp {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 2.5%;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 2.5%;
+  }
+  .bookInfoHp {
+    font-size: 0.7em;
+  }
+  
+}

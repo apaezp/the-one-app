@@ -46,7 +46,7 @@ function Navbar() {
               <Link
                 to='/pages/Got/HomeGot'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={click}
               >
                 Game of Thrones
               </Link>
@@ -55,7 +55,7 @@ function Navbar() {
               <Link
                 to='/pages/Lotr/HomeLotr'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={click}
               >
                 Lord Of The Rings
               </Link>
@@ -65,7 +65,7 @@ function Navbar() {
               <Link
                 to='/pages/HarryPotter/HomeHP'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={click}
               >
                 Harry Potter
               </Link>

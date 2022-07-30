@@ -24,7 +24,8 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 .cardCharacterGot{
     display: flex;

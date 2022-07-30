@@ -20,7 +20,7 @@
   font-weight: bold;
   color: white;
   text-align: center;
-  text-shadow: -1px 0 rgb(148, 25, 25), 0 3px rgb(80, 50, 87), 3px 0 black, 0 -1px black;
+  text-shadow: -1px 0 rgb(148, 25, 25), 0 3px rgb(137, 76, 152), 3px 0 black, 0 -1px black;
 
   font-family: "Cinzel", serif;
 }
@@ -67,4 +67,68 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 0 0 0.5em #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .containerHp {
+    width: 100%;
+    background-image: url("./img/forest.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .charactersHp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+  }
+ 
+  .cardCharacterHp {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    box-shadow: 15px 0px 15px rgb(5, 53, 37);
+    border-radius: 5%;
+  }
+  .imgCardHp {
+    height: 100%;
+    width: 90%;
+    border-radius: 2.5%;
+    padding: 5%;
+  }
+  .cardImgHp {
+    height: 280px;
+    width: 100%;
+    border-radius: 2.5%;
+    align-items: center;
+  }
+  .cardInfoHp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel", serif;
+    align-items: center;
+    text-align: justify;
+    color: white;
+  }
+  .nameHp,
+  .birthdayHp,
+  .houseHp,
+  .actorHp {
+    margin: 0;
+  }
+  .nameHp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 0.5em #000;
+  }
 }

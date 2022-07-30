@@ -70,3 +70,14 @@ video {
   font-size: 20px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .form-body {
+    height: 350px;
+    width:400px;
+  }
+  .btnSignUp {
+    margin-top: 90%;
+    font-size: 15px;
+  }
+}
