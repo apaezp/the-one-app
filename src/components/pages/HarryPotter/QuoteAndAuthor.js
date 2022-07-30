@@ -12,7 +12,7 @@ class QuoteAndAuthor extends React.Component {
         <div
           className="fadeIn"
           key={Math.random()}
-          style={{ color: "white" }}
+          style={{ color: "black" }}
         >
           <h1 id="quote">"{this.props.quote}"</h1>
           <h5 id="author">

@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 0;
+}
+
 .footerHp-container {
     
     padding: 4rem 0 2rem 0;
@@ -9,6 +13,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
+    background-color: black;
 
 
     }
@@ -46,4 +52,5 @@
     color: black;
     margin-bottom: 16px;
     }
-  
+
+ 
