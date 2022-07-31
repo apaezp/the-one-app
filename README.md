@@ -1,4 +1,4 @@
-# TheOneApp : One app to rule them all!
+# TheOneApp : One App to rule them all!
 
 WEBSITE: https://the-one-app.netlify.app/
 
