@@ -30,7 +30,7 @@ class GenerateRandomQuote extends React.Component {
     };
   
     randomColor() {
-      const color = "white"
+      const color = "#181818"
             return color;
     }
     
