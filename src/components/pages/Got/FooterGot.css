@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: rgb(24,24,24);   
-}
+} */
 
 .footerGot-container {
     background-color: #181818;
@@ -9,12 +9,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('https://st1.uvnimg.com/dims4/default/01ed0e7/2147483647/thumbnail/480x270/quality/75/format/jpg/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fg%2Fgame-of-thrones-viserion-got.gif');
+    background-image: url('./img/footerBackground.gif');
     /* https://www.gizmodo.com.au/wp-content/uploads/sites/2/2018/12/07/o0miigcvsubyt099t3c8.gif */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    height: 100%;
 }
   
     .footerGot-quote {
