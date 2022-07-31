@@ -13,21 +13,22 @@ const BooksLotr = () => {
   
 
   useEffect(() => {
-    
+    try {
     const fetchData = async () => {
       const rawBooks = await fetch("https://the-one-api.dev/v2/book/");
       const books = await rawBooks.json();
       const book = books.docs;
       
       
-
       setBook(book);
-      setImg(booksArray);
-     
+      setImg(booksArray);     
       
-      }
-      
+      }      
     fetchData();
+
+    } catch (error) {
+      console.log(error);
+    }
   }, []);
 
   return (
