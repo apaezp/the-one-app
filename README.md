@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# TheOneApp : One app to rule them all!
 
 WEBSITE: https://the-one-app.netlify.app/
 
