@@ -15,7 +15,7 @@ import CharactersGot from "./components/pages/Got/CharactersGot";
 import BooksGot from "./components/pages/Got/BooksGot";
 import SeriesGot from "./components/pages/Got/SeriesGot";
 import FooterGot from "./components/pages/Got/FooterGot";
-import Search from "./components/Search";
+
 import CharactersHp from "./components/pages/HarryPotter/CharactersHp";
 import FooterHp from "./components/pages/HarryPotter/FooterHp";
 import BooksHp from "./components/pages/HarryPotter/BooksHp";
@@ -40,7 +40,7 @@ function App() {
 
           <Route path="/Cards" element={<Cards />} />
 
-          <Route path="/Search" element={<Search />} />
+          
 
           <Route path="pages/Got/HomeGot" element={<HomeGot />} />
 

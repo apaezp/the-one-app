@@ -24,18 +24,7 @@ function HeroSection() {
               GET STARTED
             </Button>
           </Link>
-            <Link to='./Search'>
-            <Button
-              className="btns"
-              buttonStyle="btn--primary"
-              buttonSize="btn--large"
-              onClick={console.log("hey")}
-            >
-              SEARCH <i className="fa-solid fa-magnifying-glass" />
-
-
-            </Button>
-            </Link>
+            
           </div>
         
       
