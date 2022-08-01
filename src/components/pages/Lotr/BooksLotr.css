@@ -41,6 +41,8 @@
 .cardContainerLotr {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 1em;
 }
 .bookInfoLotr {
@@ -59,16 +61,14 @@
 
 @media screen and (max-width: 768px) {
   .booksLotrContainer {
-    height: 100%;
+    height: auto;
 
   }
-  .imgBoxLotr {
-    height: 350px;
-    width: 400px;
-  }
+  
   .bookBoxLotr {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -76,6 +76,12 @@
     
   }
   
+  .bookImgLotr{
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5%;
+    opacity: 60%;
+  }
   .bookInfoLotr {
     width: 100%;
     height: 80%;
