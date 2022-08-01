@@ -38,7 +38,7 @@ function App() {
           <Routes>
           <Route path='the-one-app/' element={<Home />} /> 
 
-          <Route path="/Cards" element={<Cards />} />
+          <Route path="the-one-app/Cards" element={<Cards />} />
 
           <Route path="pages/Got/HomeGot" element={<HomeGot />} />
 
