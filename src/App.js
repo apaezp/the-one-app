@@ -36,7 +36,7 @@ function App() {
         <ScrollToTop />
 
           <Routes>
-          <Route path='/' element={<Home />} /> 
+          <Route path='the-one-app/' element={<Home />} /> 
 
           <Route path="/Cards" element={<Cards />} />
 
