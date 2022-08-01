@@ -10,9 +10,11 @@ const CharactersHp = () => {
   useEffect(() => {
     
     try {
-    fetch("http://hp-api.herokuapp.com/api/characters")
+
+    fetch("https://hp-api.herokuapp.com/api/characters")
     .then(response => response.json())
     .then(data => setCharacter(data.slice(0,12)))
+      console.log(character)
 
     } catch (error) {
       console.log(error)
@@ -23,7 +25,7 @@ const CharactersHp = () => {
   return(
     <div className='containerHp'>
       <h1 className="charactersTitleHp">Characters</h1>
-      <div className='charactersHpotter'>
+      <div className='charactersHp'>
         {
           character.map(item  => (
             <div className='cardCharacterHp' key={character.indexOf(item)}>
