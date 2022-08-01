@@ -35,7 +35,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
 
-          <Routes>
+          
           <Route exact path="/"> <Home /> </Route>
 
           <Route path="/Cards" element={<Cards />} />
@@ -71,7 +71,7 @@ function App() {
           <Route path="pages/Lotr/HomeLotr/MoviesLotr" element={<MoviesLotr />} />
 
           <Route path="pages/Lotr/HomeLotr/FooterLotr" element={<FooterLotr />} />
-          </Routes>
+          
       </BrowserRouter>
     
   );
