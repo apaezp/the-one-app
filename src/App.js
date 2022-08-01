@@ -4,7 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home.js";
+import Home from "./components/pages/Home";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import SignUp from "./components/pages/SignUp";
 import HomeGot from "./components/pages/Got/HomeGot";
@@ -30,7 +30,7 @@ import FooterLotr from "./components/pages/Lotr/FooterLotr";
 
 function App() {
   return (
-    
+    <>
       <BrowserRouter>
         <Navbar />
         <Home />
@@ -74,7 +74,7 @@ function App() {
           <Route path="pages/Lotr/HomeLotr/FooterLotr" element={<FooterLotr />} />
           </Routes>
       </BrowserRouter>
-    
+    </>
   );
 }
 
