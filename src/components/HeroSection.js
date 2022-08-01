@@ -14,7 +14,7 @@ function HeroSection() {
           <h1>“Not all those who wander are lost.”</h1>
           <p>— Bilbo Baggins.</p>
           <div className="hero-btns">
-          <Link to='./Cards'>
+          <Link to='/Cards'>
             <Button
               className="btns"
               buttonStyle="btn--outline"
