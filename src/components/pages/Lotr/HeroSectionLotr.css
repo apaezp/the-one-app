@@ -1,87 +1,78 @@
 .hero-containerLotr {
-    background: url("https://i.gifer.com/8hZR.gif") center center/cover no-repeat;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-    overflow: hidden;    
-    
-  }  
-  
+  background: url("https://i.gifer.com/8hZR.gif") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.hero-containerLotr > h1 {
+  color: #fff;
+  font-size: 60px;
+
+  font-family: "Cinzel", serif;
+}
+
+.hero-containerLotr > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Cinzel", serif;
+}
+
+.hero-btns {
+  padding-top: 30px;
+}
+
+/* .characterHeroLotr {
+  margin: 200px;
+} */
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-solid {
+  font-size: 22px;
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-containerLotr {
+    height: auto;
+  }
   .hero-containerLotr > h1 {
-    
-    color: #fff;
-    font-size: 60px;
-   
-    font-family: 'Cinzel', serif;
-    
+    font-size: 50px;
   }
-  
-  .hero-containerLotr> p {
-    
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Cinzel', serif;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-containerLotr {
+    height: auto;
   }
-  
-  .hero-btnsLotr {
-    padding-top: 30px;
+  .hero-containerLotr > h1 {
+    font-size: 50px;
+    
   }
 
-  .characterHeroLotr{
-    margin:200px;
+  .hero-containerLotr > p {
+    font-size: 30px;
   }
-  
-  .hero-btnsLotr .btn {
-    margin: 6px;
+  /* .hero-btnsLotr {
+    padding-top: 220px;
+    margin-top: 20px;
+  } */
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
   }
-  
-  .fa-solid {
-    font-size: 22px;
-    margin-left: 6px;
-  }
-  
-   @media screen and (max-width: 960px) {
-    .hero-containerLotr{
-      height: auto;
-    }
-     .hero-containerLotr > h1 {
-      font-size: 50px;
-      
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
 
-    .hero-containerLotr{
-      height: auto;
-    }
-    .hero-containerLotr > h1 {
-      font-size: 50px;
-     
-      margin: 0px;
-      
-    }
-  
-    .hero-containerLotr > p {
-      font-size: 30px;
-    }
-    .hero-btnsLotr {
-      margin-top: -220px;
-      padding-top: -20px;
-    }
-    .btn-mobile {
-      
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btns {
-      width: 100%;
-    }
+  .btns {
+    width: 100%;
   }
+}
