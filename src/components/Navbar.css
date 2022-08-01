@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
-    padding-right: 1.4em;
+    /* padding-right: 1.4em; */
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -110,6 +110,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      padding-top: 70px;
     }
   
     .nav-menu.active {
@@ -126,10 +127,9 @@
   
     .nav-links {
       text-align: center;
-      padding: 10rem;
+      padding: 1rem;
       width: 100%;
-      display: table;
-      top: 10px;
+      
     }
   
     .nav-links:hover {
