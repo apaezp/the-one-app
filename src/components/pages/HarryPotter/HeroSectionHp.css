@@ -15,7 +15,7 @@
 .hero-containerHp > h1 {
   color: #fff;
   font-size: 60px;
-  
+
   font-family: "Cinzel", serif;
 }
 
@@ -44,8 +44,6 @@
   }
   .hero-containerHp > h1 {
     font-size: 50px;
-
-    margin: 0px;
   }
 }
 
@@ -55,7 +53,7 @@
   }
   .hero-containerHp > h1 {
     font-size: 50px;
-    margin: 0px;
+    
   }
 
   .hero-containerHp > p {

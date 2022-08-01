@@ -1,85 +1,76 @@
-  
-  .heroGradient{
-      background: url("https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2017%2F08%2F15%2Fthenightking.gif") center center/cover no-repeat;
+.heroGradient {
+  background: url("https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2017%2F08%2F15%2Fthenightking.gif")
+    center center/cover no-repeat;
+}
 
+.hero-containerGot {
+  background-image: url("https://prezigram-assets.prezicdn.net/b96d0411ac788accf7b37555a92268a9a53332dc716f647c2969714104a3db5608c543d9531e6571c192020cc636bda41a79a2b2f110372b336fffc8d827525a");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.hero-containerGot > h1 {
+  color: #fff;
+  font-size: 60px;
+
+  font-family: "Cinzel", serif;
+}
+
+.hero-containerGot > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Cinzel", serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-solid {
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-containerGot {
+    height: auto;
+  }
+  .hero-containerGot > h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-containerGot {
+    height: auto;
+  }
+  .hero-containerGot > h1 {
+    font-size: 50px;
+
+    
   }
 
-  .hero-containerGot {
-    background-image: url("https://prezigram-assets.prezicdn.net/b96d0411ac788accf7b37555a92268a9a53332dc716f647c2969714104a3db5608c543d9531e6571c192020cc636bda41a79a2b2f110372b336fffc8d827525a");
+  .hero-containerGot > p {
+    font-size: 30px;
+  }
 
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-      object-fit: contain;
-      overflow: hidden;    
-      
-    }  
-    
-    .hero-containerGot > h1 {
-      
-      color: #fff;
-      font-size: 60px;
-      
-      font-family: 'Cinzel', serif;
-      
-    }
-    
-    .hero-containerGot > p {
-      
-      margin-top: 8px;
-      color: #fff;
-      font-size: 32px;
-      font-family: 'Cinzel', serif;
-    }
-    
-    .hero-btns {
-      margin-top: 32px;
-    }
-    
-    .hero-btns .btn {
-      margin: 6px;
-    }
-    
-    .fa-solid {
-      margin-left: 6px;
-    }
-    
-    @media screen and (max-width: 960px) 
-    { .hero-containerGot{
-      height: auto;
-    }
-      .hero-containerGot > h1 {
-        font-size: 50px;
-        
-       
-      }
-    }
-    
-    @media screen and (max-width: 768px) {
-      .hero-containerGot{
-        height: auto;
-      }
-      .hero-containerGot > h1 {
-        font-size: 50px;
-        
-        margin: 0px;
-        
-      }
-    
-      .hero-containerGot > p {
-        font-size: 30px;
-      }
-    
-      .btn-mobile {
-        display: block;
-        text-decoration: none;
-      }
-    
-      .btn {
-        width: 100%;
-      }
-    }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
