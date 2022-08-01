@@ -4,7 +4,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
+import Home from "./components/pages/Home.js";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import SignUp from "./components/pages/SignUp";
 import HomeGot from "./components/pages/Got/HomeGot";
@@ -33,10 +33,11 @@ function App() {
     
       <BrowserRouter>
         <Navbar />
+        <Home />
         <ScrollToTop />
 
           <Routes>
-          <Route exact path="/" element={Home} /> 
+          {/* <Route exact path="/" element={<Home />} />  */}
 
           <Route path="/Cards" element={<Cards />} />
 
