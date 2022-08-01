@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='the-one-app/' className='navbar-logo' onClick={closeMobileMenu}>
             TheOne
             <i className="fa-solid fa-ring"></i>
           </Link>
