@@ -33,7 +33,6 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <Home />
         <ScrollToTop />
 
           <Routes>
