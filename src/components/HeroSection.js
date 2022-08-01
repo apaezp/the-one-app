@@ -14,12 +14,12 @@ function HeroSection() {
           <h1>“Not all those who wander are lost.”</h1>
           <p>— Bilbo Baggins.</p>
           <div className="hero-btns">
-          <Link to='src\components\Cards.js'>
+          <Link to='./Cards'>
             <Button
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
-              onClick={console.log("hey")}
+              // onClick={console.log("hey")}
             >
               GET STARTED
             </Button>
