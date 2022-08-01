@@ -31,16 +31,14 @@ import FooterLotr from "./components/pages/Lotr/FooterLotr";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter >
         <Navbar />
         <ScrollToTop />
 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Routes>
+          <Route exact path='/' element={<Home />} /> 
 
           <Route path="/Cards" element={<Cards />} />
-
-          
 
           <Route path="pages/Got/HomeGot" element={<HomeGot />} />
 
@@ -73,13 +71,9 @@ function App() {
           <Route path="pages/Lotr/HomeLotr/MoviesLotr" element={<MoviesLotr />} />
 
           <Route path="pages/Lotr/HomeLotr/FooterLotr" element={<FooterLotr />} />
-
-          
-
-
-
-        </Routes>
+          </Routes>
       </BrowserRouter>
+      
     </>
   );
 }

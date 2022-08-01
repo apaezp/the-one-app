@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './CharactersHp.css'
+import charactersBd from './characters.json'
 //http://hp-api.herokuapp.com/api/characters
 
 const CharactersHp = () => {
@@ -10,9 +11,12 @@ const CharactersHp = () => {
   useEffect(() => {
     
     try {
-    fetch("http://hp-api.herokuapp.com/api/characters")
-    .then(response => response.json())
-    .then(data => setCharacter(data.slice(0,12)))
+
+    // fetch("https://hp-api.herokuapp.com/api/characters")
+    // .then(response => response.json())
+    // .then(data => setCharacter(data.slice(0,12)))
+    setCharacter(charactersBd.slice(0,12))
+      
 
     } catch (error) {
       console.log(error)
