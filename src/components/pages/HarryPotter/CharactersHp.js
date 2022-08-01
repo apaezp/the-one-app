@@ -23,7 +23,7 @@ const CharactersHp = () => {
   return(
     <div className='containerHp'>
       <h1 className="charactersTitleHp">Characters</h1>
-      <div className='charactersHp'>
+      <div className='charactersHpotter'>
         {
           character.map(item  => (
             <div className='cardCharacterHp' key={character.indexOf(item)}>

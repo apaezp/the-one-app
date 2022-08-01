@@ -30,13 +30,13 @@ import FooterLotr from "./components/pages/Lotr/FooterLotr";
 
 function App() {
   return (
-    <><div>
-      <BrowserRouter>
+    <>
+      <BrowserRouter >
         <Navbar />
         <ScrollToTop />
 
           <Routes>
-          <Route exact path="/the-one-app" element={<Home />} /> 
+          <Route exact path='/' element={<Home />} /> 
 
           <Route path="/Cards" element={<Cards />} />
 
@@ -73,7 +73,7 @@ function App() {
           <Route path="pages/Lotr/HomeLotr/FooterLotr" element={<FooterLotr />} />
           </Routes>
       </BrowserRouter>
-      </div>
+      
     </>
   );
 }
