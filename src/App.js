@@ -5,7 +5,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import SignUp from "./components/pages/SignUp";
 import HomeGot from "./components/pages/Got/HomeGot";
 import HomeLotr from "./components/pages/Lotr/HomeLotr";
@@ -31,16 +31,14 @@ import FooterLotr from "./components/pages/Lotr/FooterLotr";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <ScrollToTop />
 
-        <Routes>
+        
           <Route exact path="/" element={<Home />} />
 
           <Route path="/Cards" element={<Cards />} />
-
-          
 
           <Route path="pages/Got/HomeGot" element={<HomeGot />} />
 
@@ -78,8 +76,8 @@ function App() {
 
 
 
-        </Routes>
-      </BrowserRouter>
+        
+      </Router>
     </>
   );
 }
